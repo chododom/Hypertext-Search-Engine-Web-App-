@@ -2,7 +2,12 @@ from django.shortcuts import render
 from .forms import SearchForm
 from PageRankApp.pagerank.src import main
 from django.views.decorators.csrf import csrf_exempt
+from django.shortcuts import redirect
 
+
+def redirect_view():
+    response = redirect('/pagerank/')
+    return response
 
 @csrf_exempt
 def search(request):
@@ -37,16 +42,27 @@ def search(request):
     pages = []
 
     if crawling == '1':
-        tmp = main.CRAWL
+        tmpC = main.CRAWL
+        tmpP = main.CALC_PR
+        tmpI = main.INIT_SEARCH_INDEX
+
         main.CRAWL = True
+        main.CALC_PR = True
+        main.INIT_SEARCH_INDEX = True
+
         main.crawl_them_all()
-        main.CRAWL = tmp
+
+        main.CRAWL = tmpC
+        main.CALC_PR = tmpP
+        main.INIT_SEARCH_INDEX = tmpI
 
     if searching == '1':
-        tmp = main.SEARCH
+        tmpS = main.SEARCH
         main.SEARCH = True
+
         pages = main.search_them_all()
-        main.SEARCH = tmp
+
+        main.SEARCH = tmpS
 
     print(pages)
     return render(request, "search.html", {'pages': pages,

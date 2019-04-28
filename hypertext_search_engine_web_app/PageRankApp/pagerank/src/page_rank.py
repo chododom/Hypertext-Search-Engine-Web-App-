@@ -1,3 +1,5 @@
+import math
+
 from PageRankApp.pagerank.src.matrix_factory import MatrixFactory
 from PageRankApp.pagerank.src.config import *
 
@@ -86,8 +88,6 @@ class PageRank:
     def assign_ranks(res):
         maxPR = - math.inf
         minPR = math.inf
-        maxCR = - math.inf
-        minCR = math.inf
         for i in range(len(res)):
             with open(PARENT_DIR + "page_ranks/ranks", mode="r", encoding="utf-8") as fp:
                 line = fp.readline()
