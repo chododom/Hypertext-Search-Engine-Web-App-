@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Rank</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .flex-container * {
+            display: block;
+        }
+
+        header, section {
+            width: auto;
+            height: min-content;
+        }
+
+        header {
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        header * {
+            width: min-content;
+
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        form input[type=text] {
+            font: 20px Arial black;
+            margin: 3px;
+            padding: 5px;
+            width: 250px;
+
+        }
+
+        form input[type=submit] {
+            display: inline;
+            padding: 10px 15px;
+            margin: 3px;
+            width: 150px;
+            border-color: azure;
+
+            font-size: 25px;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        .radio {
+            display: flex;
+            vertical-align: baseline;
+        }
+
+        .radio_buttons {
+            display: inline-block;
+        }
+
+        .radio_buttons label {
+            text-align: left;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+
+        }
+
+        .radio_buttons label input[type=radio] {
+            display: inline;
+            height: 20px;
+            width: 20px;
+        }
+
+        .radio_label {
+            display: inline-block;
+            font-size: 30px;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+        }
+
+        .search-results > div {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .search-results div label {
+            display: block;
+            width: fit-content;
+            font-size: 30px;
+            margin: 5px;
+            font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+            color: black;
+        }
+
+        .search-results div span {
+            display: inline-block;
+            width: fit-content;
+
+            font-size: 35px;
+            background-color: dodgerblue;
+            padding: 5px 10px;
+            font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+            color: white;
+            border-radius: 10px;
+        }
+
+        ol li {
+            font-family: Arial, serif;
+            font-size: 25px;
+        }
+
+        .h_pr {
+            font-size: 50px;
+        }
+
+        .h_conj {
+            font-size: 20px;
+        }
+
+        .h_name {
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<header class="flex-container">
+    <div class="h_pr">PageRank</div>
+    <div class="h_conj">by</div>
+    <div class="h_name">Martin&nbsp;Pilný</div>
+    <div class="h_conj">and</div>
+    <div class="h_name">Dominik&nbsp;Chodounský</div>
+</header>
+<section class="search-form flex-container">
+    <form method="post">
+        <table>
+            <tr>
+                <td class="radio_label">Metoda</td>
+                <td class="radio_buttons">
+                    <label>
+                        <input type="radio" name="pagerank_method" value="matrix"
+                               {% if pagerank_method == 'matrix' %}checked=""{% endif %}onchange="this.form.submit()">
+                        Maticová
+                    </label>
+                    <label>
+                        <input type="radio" name="pagerank_method" value="power"
+                               {% if pagerank_method == 'power' %}checked=""{% endif %} onchange="this.form.submit()">
+                        Mocninná
+                    </label>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <form method="post">
+        <input type="text" name="crawling" style="display: none" value="1">
+        <input type="submit" value="Crawluj">
+    </form>
+    <form method="post">
+        {{ searching_form }}
+        <input type="submit" value="Hledat">
+    </form>
+</section>
+<section class="search-results flex-container">
+    {% if searched_exp != '' %}
+        <div class="flex-container">
+            <label>Výsledky pro výraz:</label>
+            <span>{{ searched_exp }}</span>
+        </div>
+    {% endif %}
+    <ol style="text-align: left">
+        {% for elem in pages %}
+            <li class="result-row">{{ elem }}</li>
+        {% endfor %}
+    </ol>
+</section>
+</body>
+</html>
