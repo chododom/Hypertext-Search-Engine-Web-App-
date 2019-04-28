@@ -1,0 +1,249 @@
+https://cs.wikipedia.org/wiki/Soci%C3%A1ln%C3%AD_simulace
+
+
+
+
+
+
+
+
+
+
+
+Sociální simulace
+
+Z Wikipedie, otevřené encyklopedie
+
+
+Skočit na navigaci
+Skočit na vyhledávání
+Sociální simulace je výzkumná oblast, která aplikuje výpočetní metody na studium témat ve společenských vědách. Zkoumaná témata zahrnují problémy v sociologii, politologii, ekonomii, antropologii, geografii, archeologii a lingvistice.
+Cílem sociální simulace je překonat mezeru mezi deskriptivním přístupem používaným ve společenských vědách a formálním přístupem používaným v přírodních vědách, přesunem pozornosti na procesy/mechanismy/chování, které budují sociální realitu.
+V sociální simulaci počítače podporují aktivity lidského usuzování prováděním těchto mechanismů. Tato oblast zkoumá simulace společností jako jsou komplexní nelineární systémy, které je obtížné studovat klasickými matematickými modely založenými na rovnicích. Robert Axelrod pokládá sociální simulaci za třetí způsob vědecké práce, lišící se od deduktivního i induktivního přístupu; generující data, která mohou být analyzována induktivně, ale vycházející z rigorózně specifikované sady pravidel spíše než z přímého měření reálného světa. Tudíž simulace fenoménu je blízko k jeho generování – konstrukci umělých společností. Tyto ambiciózní cíle narazily na četné kritiky.
+Přístup sociální simulace ke společenským vědám je podporován a koordinován třemi regionálními asociacemi, pro Evropu, Severní Ameriku, a Pacifickou Asii.
+
+Obsah
+
+1 Historie a vývoj
+2 Typy simulací a modelování
+3 Systémová simulace
+4 Systémové modelování
+5 Multiagentní simulace
+6 Multiagentní modelování
+7 Současný výzkum
+8 Kritika sociálních simulací
+9 Odkazy
+
+9.1 Reference
+9.2 Literatura
+9.3 Související články
+9.4 Externí odkazy
+
+
+
+
+Historie a vývoj[editovat | editovat zdroj]
+ Jeden z nejznámějších celulárních automatů - takzvané kluzákové dělo
+Historie multiagentního modelování může být mapována od von Neumannova stroje, teoretického stroje schopného reprodukce. Zařízení, které navrhl von Neumann, se řídilo přesně detailními instrukcemi, aby vytvořilo kopii sebe sama. Tento koncept byl poté vylepšen von Neumannovým přítelem, také matematikem Stanislawem Ulamem; Ulam navrhl stroj vytvořený na papíře jako soubor buněk v mřížce. Tato myšlenka zaujala von Neumanna, který ji sepsal a vytvořil tím první zařízení později označované jako celulární automat.
+S dalším vylepšením přišel matematik John Conway. Zkonstruoval dobře známý celulární automat Game of Life. Na rozdíl od von Neumannova stroje se Conwayova Game of Life řídila jednoduchými pravidly ve virtuálním světě ve formě 2-dimenzionální šachovnice.
+Zrození multiagentního modelování jako modelu pro sociální systémy zapříčinil zejména počítačový vědec Craig Reynolds. Rozhodl se modelovat realitu živých biologických agentů, známých jako umělý život, termín vytvořený Christopherem Langtonem.
+Joshua M. Epstein a Robert Axtell vyvinuli první rozsáhlý agentní model nazvaný Sugarscape, aby simulovali a zkoumali roli sociálních jevů jako jsou sezónní migrace, znečištění, pohlavní rozmnožování, boj, přenos nemoci, nebo dokonce kultura.
+V nedávné době vyvinul Ron Sun metody multiagentního modelování založené na lidském poznání, známé jako kognitivně sociální simulace.
+
+Typy simulací a modelování[editovat | editovat zdroj]
+Sociální simulace může odkazovat na všeobecnou třídu strategií pro pochopení sociální dynamiky používající počítače k simulaci sociálních systémů. Sociální simulace počítá s více systematickým přístupem sledování možností výstupů.
+Existují čtyři hlavní typy sociálních simulací:
+
+Systémová simulace (Simulace na úrovni systému)
+Systémové modelování (Modelování na úrovni systému)
+Multiagentní simulace
+Multiagentní modelování
+Sociální simulace může spadat do rubriky výpočetní sociologie, což je nedávno vyvinutá oblast sociologie, která používá výpočty pro analýzu sociálních jevů. Základní předpoklad výpočetní sociologie je využít počítačové simulace při konstrukci sociálních teorií. To zahrnuje pochopení sociálních agentů, interakcí mezi těmito agenty, a efekt těchto interakcí na sociální agregát. Ačkoliv se sledovaná problematika a metodologie ve společenských vědách liší od těch v přírodních vědách nebo informatice, několik přístupů používaných v současných sociálních simulacích vzniklo v oblastech jako je fyzika nebo umělá inteligence.
+
+Systémová simulace[editovat | editovat zdroj]
+Systémová simulace je nejstarší úrovní sociální simulace. Bere v úvahu situaci jako celek. Tento teoretický pohled na sociální situace používá široké množství informací pro určení toho, co by se mělo stát se společností a jejími členy, jestliže jsou přítomny určité proměnné. Tudíž společnost a její členové by měli mít se specifickými přítomnými proměnnými určitou schopnost reagovat na situaci. Plavba touto teoretickou simulací dovolí vědcům rozvinout učené myšlenky o tom, co se stane při nějakých specifických proměnných.
+Kdyby například NASA chtěla řídit systémovou simulaci pro navigaci, organizace by měla z této nákladově efektivní výzkumné metody prospěch. Tato simulace umožňuje výzkumníkovi projíždět virtuální možnosti dané simulace, vyvíjet spolehlivé procesy a produkovat průkazná fakta o tom, jak dopadne určitá situace.
+
+Systémové modelování[editovat | editovat zdroj]
+Cílem systémového modelování je specificky (na rozdíl od generalizace v předpovědi u systémové simulace) předpovídat a postoupit v mezích systému jakékoliv množství akcí, chování nebo jiných teoretických možností téměř každé osoby, objektu, konstruktu a tak dále, používajíce širokou škálu matematických rovnic a počítačového programování ve formě modelů.
+Model je reprezentace specifických věcí sahajících od objektů a lidí po struktury a produkty vytvořené prostřednictvím matematických rovnic, a je navržen za použití počítačů takovým způsobem, že je schopen zastoupit ve studii výše zmíněné věci. Modely mohou být buď zjednodušené nebo komplexní, což závisí na potřebě každého z nich; nicméně modely mají být jednodušší než to, co reprezentují, a zároveň mají zůstat realisticky podobné, aby byly používány přesně. Jsou vytvářeny za použití souboru dat, která jsou překládána do výpočetních jazyků, které jim dovolují reprezentovat příslušný systém. Tyto modely jsou používány, stejně jako simulace, aby nám pomohly lépe porozumět specifickým rolím a akcím různých věcí, aby předpovídaly chování a podobně.
+
+Multiagentní simulace[editovat | editovat zdroj]
+ Simulace mraveniště v programu NetLogo
+Multiagentní sociální simulace (MASS) sestává z modelování různých společností za pomoci umělých agentů (měnících se škálovitě) a jejich umisťování do počítačově simulované společnosti, aby bylo možné pozorovat jejich chování. Z těchto dat je možné se dozvědět o reakcích umělých agentů a přeložit je do výsledků neumělých agentů a simulací. Třemi hlavními oblastmi MAS jsou multiagentní výpočty, společenské vědy a počítačové simulace.
+Multiagentní výpočet je designem modelu a agentů, zatímco počítačová simulace je částí simulace agentů v modelu a výstupů. Společenská věda je směsí věd a společenských částí modelu. To znamená, kde jsou sociální jevy vyvolávány a teoretizovány. Hlavním smyslem MAS je poskytnout modely a nástroje sociálních jevů multiagentním simulacím. S MAS můžeme zkoumat různé výstupy pro jevy, kde bychom tyto výstupy v reálném životě nemuseli být schopni pozorovat. To nám může poskytnout hodnotné informace o společnosti a výstupy společenských událostí a jevů.
+
+Multiagentní modelování[editovat | editovat zdroj]
+Multiagentní modelování (MAM) je systém, ve kterém soubor agentů nezávisle interaguje na síti. Každý jednotlivý agent je zodpovědný za odlišné chování, které má za následek kolektivní chování. Toto chování jako celek pomáhá definovat fungování sítě. MAM se zaměřuje na lidskou sociální interakci a jak lidé spolupracují a vzájemně komunikují bez toho, aniž by existovala jedna "skupinová mysl". Toto v podstatě znamená, že MAM inklinuje k zaměření se na důsledky interakcí mezi lidmi (agenty) v populaci. Vědci jsou schopni lépe porozumět tomuto typu modelování modelováním této dynamiky na menších, lokalizovanějších úrovních. MAM v podstatě pomáhá lépe porozumět interakcím mezi lidmi (agenty), kteří pro změnu ovlivňují jeden druhého (v reakci na tyto vlivy). Jednoduchá individuální pravidla nebo akce mohou mít za následek srozumitelné skupinové chování. Změny v těchto individuálních aktech mohou ovlivnit kolektivní skupinu v jakékoliv dané populaci.
+Multiagentní modelování je experimentální nástroj pro teoretický výzkum. Umožňuje nám zabývat se komplexnějším individuálním chováním, jako je například adaptace. Celkově tímto typem modelování, tvůrce nebo vědec, má za cíl modelovat chování agentů a komunikace mezi nimi, aby lépe porozuměl tomu, jak tyto individuální interakce ovlivňují celou populaci. V podstatě je MAM cestou modelování a porozumění různých globálních vzorů.
+
+Současný výzkum[editovat | editovat zdroj]
+V současnosti probíhá několik výzkumných projektů, které se přímo vztahují k modelování a multiagentním simulacím. Některé z nich jsou uvedeny dále s krátkým přehledem.
+
+“Generativní e-společenská věda pro společensko-prostorovou simulaci” nebo také (GENESIS) je výzkumný počin Národního centra Velké Británie pro e-společenskou vědu financovaný Výzkumnou radou Velké Británie ESRC. Pro bližší údaje se podívejte na: GENESIS Web Page a Blog.
+“Národní e-infrastruktura pro sociální simulaci” nebo také (NeISS) je britský projekt financovaný JISC. Pro bližší údaje se podívejte na: The NeISS Web Pages.
+“Kontrola síťových modelů a R&D kolaboračních sítí” nebo také (N.E.M.O) je výzkumné centrum, jehož hlavním záměrem je identifikovat způsoby pro vytvoření a stanovení žádoucí síťové struktury pro typické funkce; (např. znalost, stvoření, transfer a distribuce). Tento výzkum nakonec pomůže politickým tvůrcům na všech politických úrovních zlepšit efektivnost a efektivitu politických nástrojů založených na sítích při propagaci znalostní ekonomiky v Evropě.
+“Multiagentní simulace trhu a spotřebitelského chování” je další výzkumnou skupinou financovanou Unilever Corporate Research. Právě probíhající výzkum zkoumá užitečnost multiagentních simulací pro modelování spotřebitelského chování a aby ukázal potenciální hodnotu a pochopení, kterým může takovéto chování přispět k zavedeným marketingovým metodám.
+“Nové a emergentní modely světa prostřednictvím individuálního, evolučního a sociálního učení” nebo také "Nové kravaty" je tříletý projekt, který nakonec vytvoří virtuální společnost vyvinutou multiagentní simulací. Projekt vyvine simulovanou společnost schopnou zkoumání prostředí a rozvoje své vlastní představy tohoto prostředí a společnosti prostřednictvím interakcí. Cílem výzkumného projektu je, aby simulovaná společnost ukázala individuální učení, evoluční učení a sociální učení.
+Projekt Bruche a Mareho o segregaci okolí: Smyslem studie je určení důvodu segregace okolí založené na rase, a určení bodu zlomu nebo toho, kdy lidé začnou být nespokojení s integrační úrovní do svého okolí, a rozhodnou se z tohoto prostředí uniknout. Vědci sestavili model používající pomocné karty, umístili dům agentů doprostřed a domy odlišných ras obklopovaly dům agentů. Ptali se lidí, jak spokojení jsou v různých situacích. Pokud byli spokojeni s jednou situací, byli dotázaní na další, dokud okolí nebylo plně integrováno. Výsledky Bruche a Mareho ukázaly, že bod zlomu byl 50%. Když bylo okolí na 50% minoritní a na 50% bílé, lidé obou ras začali být nespokojení a bílá skupina začala růst. Použití multiagentního modelování ukázalo, jak užitečné může být ve světě sociologie. Lidé nemuseli odpovídat, proč by byli nespokojení, stačilo pouze říci, s jakou situací.
+Program MAELIA (Multiagentní emergentní stanovení norem) je projekt zabývající se vztahy mezi uživateli a správci přírodního zdroje, v tomto případě vody, a souvisejícími normami a zákony, které jsou budovány v průběhu (obecné zásady) nebo jsou jim předepsány jinými aktéry (např. institucemi). Smysl projektu je vybudovat obecnou mnohostupňovou platformu, která se bude zabývat konfliktními otázkami souvisejícími s vodou.
+Multiagentní modelování je nejužitečnější tím, že poskytuje most mezi mikro a makro úrovněmi, což je velká část toho, co studuje sociologie. Multiagentní modely jsou nejvhodnější pro studium procesů, které postrádají centrální koordinaci, zahrnující emergenci institucí které, jednou založené, nařizují ze shora dolů. Modely se zaměřují na to, jak jednoduché a předvídatelné lokální interakce generují známé, ale vysoce detailní globální vzory, jako je emergence norem a výskyt kolektivní akce. Michael W. Macy a Robert Willer zkoumali nedávnou přehlídku aplikací a zjistili, že existují dva hlavní problémy s multiagentním modelováním, samoorganizace společenské struktury a emergence společenského řádu. Níže je uveden krátký popis každého problému podle domněnky Macyho a Willera;
+
+"Emergentní struktura. V těchto modelech mění agenty lokaci nebo chování v reakci na společenské vlivy nebo selekční tlak. Agenty mohou začít nerozlišené a potom měnit lokaci nebo chování, aby se nestaly odlišnými nebo izolovanými (nebo v nějakých případech, přeplněnými). Nicméně spíše než aby produkovala homogenitu, tato konformní rozhodnutí v souhrnu produkují globální vzory kulturních odlišností, stratifikací a homofilního seskupování se v lokálních sítích. Jiné studie obrací proces, začínají s různorodou populací a končí sbližováním: koordinace, rozšiřování a náhlý kolaps norem, obecných zásad, inovací a technologických standardů."
+"Emergentní společenský řád. Tyto studie ukazují, jak egoistická adaptace může vést k úspěšné kolektivní akci bez altruismu nebo globálního (ze shora dolů) zavedení kontroly. Klíčem hledajícím mezi mnoha studiemi je to, že životaschopnost důvěry, kooperace a kolektivní akce, závisí rozhodujícím způsobem na zakotvenosti interakcí."
+Tyto příklady jednoduše ukazují komplexitu našeho prostředí a to, že multiagentní modely jsou navrženy tak, aby zkoumaly minimální podmínky, nejjednodušší sadu předpokladů o lidském chování, požadované pro daný sociální jev k emergenci v organizaci vyšší úrovně.
+
+Kritika sociálních simulací[editovat | editovat zdroj]
+Již od svého vzniku je počítačová sociální simulace cílem některých kritik pokud jde o její praktičnost a přesnost. Zjednodušení sociální simulace komplexních systémů pro formování modelů, ze kterých můžeme lépe pochopit realitu, je někdy považováno za nedostatek, jelikož používání poměrně jednoduchých modelů k simulaci reálného života s počítači není vždy nejlepším způsobem predikce chování.
+Nejvíce kritiky se zdá být zaměřeno na multiagentní modely a simulace, a na to, jak pracují:
+
+Člověkem vytvořené simulace z matematických rozhraní predikují lidské chování daleko jednodušším způsobem, pokud jde o komplexitu lidstva a našich činů.
+Simulace nemohou objasnit vědcům to, jak lidé interagují nebo se chovají způsobem, který není naprogramován v jejich modelech. Z tohoto důvodu je rozsah simulací omezen na to, že vědci musí už dopředu vědět, co chtějí zjistit (do určité míry, protože nemohou najít nic, co neumístili do modelu) alespoň vágně, s možností upravit výsledky.
+Z důvodu komplexity toho, co je měřeno, musí být simulace analyzovány nezaujatým způsobem; nicméně s běžícím modelem na stanovené sadě instrukcí zakódované do něj programátorem, existuje zaujatost téměř univerzálně.
+Je velmi obtížné a často nepraktické se pokoušet spojovat zjištění z abstraktního světa, která simulace vytváří, s naší komplexní společností a všemi jejími variacemi.
+Vědci pracující na sociálních simulacích by mohli oponovat, že konkurenční teorie z oblasti společenských věd jsou o hodně jednodušší než ty, kterých bylo dosaženo prostřednictvím simulací, a proto trpí dříve zmíněným nedostatkem o hodně silněji. Teorie ve společenských vědách inklinují k lineárním modelům, které nejsou dynamické a které jsou odvozeny z malých laboratorních experimentů. Chování populace agentů pod těmito modely je zřídka testováno nebo ověřováno empirickým pozorováním.
+
+Odkazy[editovat | editovat zdroj]
+Reference[editovat | editovat zdroj]
+V tomto článku byl použit překlad textu z článku Social simulation na anglické Wikipedii.
+
+Literatura[editovat | editovat zdroj]
+DAVIDSSON, Paul. Multi Agent Based Simulation: Beyond social simulation. In Multi Agent Based Simulation (LNCS Vol. 1979), Springer Verlag. 2000. Dostupné v archivu pořízeném dne 2008-02-16. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+POLHILL, G. J.; EDMONDS, B. Open Access for Social Simulation. Journal of Artificial Societies and Social Simulation. 2007. Dostupné online. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+TAKAHASHI, Shingo; SALLACH, David; ROUCHIER, Juliette. Advancing Social Simulation: The First World Congress. [s.l.]: Springer, 2007. Dostupné online. ISBN 978-4-431-73150-4. S. 354. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+MACY, M. W.; WILLER, R. From Factors to Actors. Annual Review of Sociology. 2002. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+MARGITAY-BECHT, Andras. Agent Based Modelling of AID. Interdisciplinary Description of Complex Systems. 2005, s. 84-93. Dostupné v archivu pořízeném dne 2007-06-30. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+NATIONAL RESEARCH, C. Defense Modeling, Simulation, and Analysis: Meeting the Challenge. [s.l.]: 500 Fifth Street, N.W. Washington, DC: The National Academies Press, 2006. Dostupné online. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+SYLVAN, Donald. Modeling the rise and fall of states. Mershon International Studies Review. 1998, s. 377–379. Dostupné online. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+SILVERMAN, Eric; BRYDEN, John. From artificial societies to new social science theory. Advances in Artificial Life. 2007, s. 565-574. Dostupné online. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+SUN, Ron. Cognition and Multi-Agent Interaction: From Cognitive Modeling to Social Simulation. [s.l.]: Cambridge University Press, New York, 2006. Dostupné online. (anglicky) Je zde použita šablona {{Citation}} označená jako k „pouze dočasnému použití“.
+Související články[editovat | editovat zdroj]
+Interaktivní online postava
+Multiagentní výpočetní ekonomie
+Multiagentní sociální simulace
+Simulovaná realita
+Syntetické prostředí pro analýzu a simulaci
+Systémová dynamika
+The Sims
+Umělá realita
+Umělá společnost
+Umělé vědomí
+Virtuální realita
+Výpočetní sociologie
+Externí odkazy[editovat | editovat zdroj]
+JASSS - The Journal of Artificial Societies and Social Simulation
+ESSA - The European Social Simulation Association
+JoSC - The Journal of Social Complexity
+Entry on Social Simulation in the NCeSS Wiki
+Centre for Research in Social Simulation, University of Surrey
+
+
+
+
+Citováno z „https://cs.wikipedia.org/w/index.php?title=Sociální_simulace&oldid=16737232“
+Kategorie: Humanitní a společenské vědyVědecké modelováníSkryté kategorie: Monitoring:Články přeložené z enwikiÚdržba:Články s dočasně použitou šablonou
+
+
+
+
+Navigační menu
+
+
+Osobní nástroje
+
+Nejste přihlášen(a)DiskusePříspěvkyVytvoření účtuPřihlášení 
+
+
+
+Jmenné prostory
+
+ČlánekDiskuse 
+
+
+
+
+Varianty
+
+
+
+
+
+
+
+Zobrazení
+
+ČístEditovatEditovat zdrojZobrazit historii 
+
+
+
+Další
+
+
+
+
+
+Hledání
+
+
+
+ 
+
+
+
+
+
+
+
+Navigace
+
+
+Hlavní stranaNápovědaPotřebuji pomocNejlepší článkyNáhodný článekPoslední změnyKomunitní portálPod lípouPodpořte Wikipedii 
+
+
+
+Nástroje
+
+
+Odkazuje semSouvisející změnyNačíst souborSpeciální stránkyTrvalý odkazInformace o stráncePoložka WikidatCitovat stránku 
+
+
+
+Tisk/export
+
+
+Vytvořit knihuStáhnout jako PDFVerze k tisku 
+
+
+
+V jiných jazycích
+
+
+العربيةEnglishEspañol 
+Upravit odkazy 
+
+
+
+
+
+ Stránka byla naposledy editována 2. 12. 2018 v 19:35.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+
+
+Ochrana osobních údajů
+O Wikipedii
+Vyloučení odpovědnosti
+Vývojáři
+Prohlášení o cookies
+Mobilní verze
+
+
+
+ 
+
+ 
+
+
+
+
+
+

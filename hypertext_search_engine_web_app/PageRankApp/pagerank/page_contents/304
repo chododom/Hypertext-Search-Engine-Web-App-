@@ -1,0 +1,557 @@
+https://cs.wikipedia.org/wiki/Wikipedie:%C5%A0ablony
+
+
+
+
+
+
+
+
+
+
+
+Wikipedie:Šablony
+
+Z Wikipedie, otevřené encyklopedie
+
+
+Skočit na navigaci
+Skočit na vyhledávání
+Podrobnější nápovědu naleznete na stránce Nápověda:Šablony.
+
+
+Zkratka:
+
+
+WP:SaWP:Š
+
+Šablony jsou kusy standardizovaného textu, které lze vkládat do textu stránky jednoduchým příkazem. Tato stránka by měla obsahovat přehled existujících šablon (ne)udržovaný ručně; případně vizte také systémový výpis všech stránek ve jmenném prostoru Šablona.
+O používání šablon a vytváření vlastních pojednává článek Nápověda:Šablony. V šablonách je možné používat též mezery, např. {{více významů}}. U prvního písmene názvu se nezohledňuje velikost.
+
+Vkládáte-li šablonu s vyšším počtem parametrů (typicky Infoboxy), nebo s dlouhými hodnotami, použijte pro přehlednost následující formát:{{Jméno šablony
+  |parametr1 = hodnota1
+  |parametr2 = hrozně děsně strašně příšerně obrovsky dlouhatananánská hodnota
+  |parametr3 = hodnota3
+...atd...
+  |parametrn = hodnotan
+}}
+
+Pro přehlednost jsou některé skupiny šablon umístěny na vlastních podstránkách:
+
+Šablony – tato stránka: obecné šablony, rozcestníky
+
+ 1/4 Šablony, tvořící běžnou součást článku 
+/Infobox – infoboxy, šablony projektů
+/Hlavní strana – šablony pro hlavní stranu, zajímavosti
+/Úvodní upozornění – úvodní upozornění vztahující se k názvu článku
+/Rozcestníky
+/Sesterské projekty – Wikislovník, Wikicitáty, Wikibooks
+/Skupiny článků – šablony pro stránky ve skupinách článků a posloupnostech.
+/Typografická pomoc – šablony, které slouží pro ulehčení typografie
+/Citace – šablony pro vkládání citací a odkazů na zdroje
+
+
+ 2/4 Tematické šablony 
+/Doprava – šablony, které slouží pro širokou škálu článků o dopravě
+/Doprava/MHD – celostátní přehled – šablony, které slouží jako přehled o všech důležitých provozech MHD v dané zemi
+/Doprava/Metro – šablony, které slouží pro orientaci mezi články s tematikou metra (většinou stanice)
+/Jazyky – šablony pro jazykové články
+/Kalendář – šablony měsíců, roků, staletí
+/Informatika – šablony operačních systémů, internetových protokolů, ...
+/Kultura a společnost – Bible, liberalismus, svátosti, právo, metal, film, ...
+/Přírodní vědy – fyzika, chemie, Nobelovy ceny, jedy, barvy, technika, ...
+/Biologické šablony – šablony pro biologické články, chráněná území
+/Chemické šablony – šablony pro chemické články
+/Sporty – fotbalové ligy, olympiáda, tenis, ...
+/Evropské fotbalové soutěže – Evropské fotbalové ligy
+/Válečnické šablony – šablony pro články o válečnictví a historii válečnictví
+/Geografické šablony – šablony pro zeměpisné články
+/Geografické šablony/Albánie – šablony pro zeměpisné články o Albánii
+/Geografické šablony/Bosna a Hercegovina – šablony pro zeměpisné články o Bosně a Hercegovině
+/Geografické šablony/Česko – šablony pro zeměpisné články o Česku
+/Geografické šablony/Itálie – šablony pro zeměpisné články o Itálii
+/Geografické šablony/Izrael – šablony pro zeměpisné články o Izraeli
+/Geografické šablony/Maďarsko – šablony pro zeměpisné články o Maďarsku
+/Geografické šablony/Slovensko – šablony pro zeměpisné články o Slovensku
+/Geografické šablony/Tematické – šablony pro témata vztahující se ke konkrétní zemi
+
+
+ 3/4 Údržba, šablony vyjadřující určitý (dočasný) stav článku 
+/Úpravy článků – tematické šablony vyzývající k úpravě článku
+/Sporné stránky – šablony určené ke stránkám, jejichž obsah je předmětem různých sporů
+/Diskuse o smazání – šablony pro stránky, o jejichž smazání se vede diskuse
+/Pahýly – obecné a speciální pahýly
+/Porušení autorských práv – šablony pro stránky porušující autorská práva
+/Slučování a rozdělování – šablony pro slučování stránek
+/Údržba – šablony pro údržbu wikipedie
+/Přesměrování – šablony pro kategorizaci redirectů
+
+
+ 4/4 Jiné šablony, uživané jen na stránkách mimo hlavní jmenný prostor nebo interně 
+/Autorská práva – popisky autorských práv pro soubory
+Babylón – šablony pro označení jazykových dovedností wikipedistů
+/Datum a čas – šablony pro vkládání času a data
+/Pravidla – pro označování pravidel a doporučení Wikipedie
+/Pomocné šablony – šablony, které nejsou určeny pro přímé vkládání do článků, ale jsou používány jinými šablonami
+/Uživatelské – šablony pro uživatelské stránky a diskuse, včetně varování, upozornění a technických připomínek
+/Wikiportály – šablony, které slouží pro zjednodušení tvorby Wikiportálů
+
+Obsah
+
+1 Obecné šablony
+2 Média
+
+
+Obecné šablony[editovat | editovat zdroj]
+
+
+Název
+Současný text
+Kam
+
+
+{{Aktuální}}
+diskuse, seznam
+
+
+
+Tento článek reaguje na aktuální nebo nedávné události.
+Informace zde uvedené se vzhledem k neustálému vývoji mohou průběžně měnit. Je třeba je se zvýšenou péčí aktualizovat a doplňovat.
+
+
+
+Článkynahoře
+
+
+{{Cizojazyčně|en|Hello world!}}diskuse • seznam
+
+Hello world!
+
+V textu k vyznačení textu v jiném jazyce
+
+
+{{IPA|ɮʊːʍ}}
+diskuse, seznam
+
+
+ɮʊːʍ
+
+V textu
+
+
+{{IPA2|ɮʊːʍ}}
+diskuse, seznam
+
+
+[ɮʊːʍ] IPA
+
+V textu
+
+
+{{IPA3}}
+diskuse, seznam
+
+
+
+
+
+
+
+Tento článek obsahuje výslovnost zapsanou znaky mezinárodní fonetické abecedy IPA.Zobrazení některých znaků nemusí být v některých prohlížečích korektní.
+
+
+
+
+
+Podle potřeby
+
+
+{{RIGHTTOC}}
+diskuse, seznam
+
+
+
+
+
+Článkyněkde na začátku
+
+
+{{SHORTTOC}}
+diskuse, seznam
+
+
+
+
+
+Článkyněkde na začátku
+
+
+{{Zamčeno}}
+diskuse, seznam
+
+
+
+
+Články nahoře
+
+
+{{Polozamčeno}}
+diskuse, seznam
+
+
+
+
+Články nahoře
+
+
+{{Dlouhodobě zamčeno}}
+diskuse, seznam
+
+
+
+
+Články nahoře
+
+
+{{Dlouhodobě polozamčeno}}
+diskuse, seznam
+
+
+
+
+Články nahoře
+
+
+{{Hlavní článek|Název}}
+diskuse, seznam
+
+
+
+Hlavní článek: Název
+
+Na začátek kategorie.Pokud není uveden Název, užije se jméno kategorie.
+
+
+{{Podrobně|Název}}
+diskuse, seznam
+
+
+ Podrobnější informace naleznete na stránce Název.
+
+Článkyna začátku odstavců
+
+
+{{Viz též|Název}}
+diskuse, seznam
+
+
+Související informace naleznete také na stránce Název.
+
+Na začátek kategorie.Pokud není uveden Název, užije se jméno kategorie.
+
+
+{{Smazat|zdůvodnění}}
+diskuse, seznam
+
+
+
+Tato stránka je navržena na rychlé smazání
+Důvod:  zdůvodnění
+
+
+Pokud s rychlým smazáním stránky nesouhlasíte, objasněte své důvody na diskusní stránce a následně z textu této stránky odstraňte šablonu {{Smazat}}.
+
+
+
+Pro správce: Před smazáním nezapomeňte ověřit, jestli sem neodkazují jiné stránky (včetně případného odkazu z Wikidat po přesunu), a zkontrolovat historii stránky! Existuje též související diskuse.
+
+
+
+Článkynahoře
+
+
+{{Spoiler}}
+diskuse, seznam
+
+
+PřeskočitVarování: Následující část článku vyzrazuje zápletku nebo rozuzlení díla.
+
+Článkyuvnitř
+
+
+{{Endspoiler}}
+diskuse, seznam
+
+
+Konec části článku, která vyzrazuje zápletku nebo rozuzlení díla.
+
+Článkyuvnitř. Za šablonou spoileru a za rozuzlením zápletky.
+
+
+{{Refaktorizováno}}
+diskuse, seznam
+
+
+refaktorizováno
+
+Článkynahoře
+
+
+{{Wikipedista|jméno}}
+diskuse, seznam
+
+
+jméno (diskuse • příspěvky • počítadlo • články • shrnutí • zablokování • všechny projekty)
+
+Článkynahoře
+
+
+{{požadavek na obrázek}}
+diskuse, seznam
+
+
+
+
+
+
+
+Tomuto článku chybí obrázky. Víte-li o nějakých svobodně šiřitelných, neváhejte je načíst a přidat do článku. Pro rychlejší přidání obrázku můžete přidat žádost i sem.
+
+
+WikiProjekt Fotografování
+
+
+viz diskuse k P.O.
+
+
+{{Nekvalitní obrázek}}
+diskuse, seznam
+
+
+
+
+
+
+
+Tento článek obsahuje nekvalitní obrázek. Víte-li o kvalitnějším svobodně šiřitelném, neváhejte jej načíst a přidat do článku.
+
+
+WikiProjekt Fotografování
+
+
+za nekvalitní obrázek
+a začátek kategorie.Pokud není uveden Název, užije se jméno kategorie.
+
+
+
+Lorem ipsum {{Zvýrazňovač|dolor|barva=zelená}} sit amet.
+diskuse, seznam
+
+
+Lorem ipsum dolor sit amet.
+
+Zvýrazní text jako zvýrazňovačem
+
+
+{{Vjazyce|de}}
+diskuse, seznam
+
+
+německy
+
+Článek kdekoliv
+
+
+{{Zpět na obsah}}
+diskuse, seznam
+
+
+Zpět na obsah
+
+Vloží odkaz na obsah stránky
+
+Média[editovat | editovat zdroj]
+
+
+Název
+Současný text
+Kam
+
+
+{{Audio|nazev souboru.ogg|popiska}}
+diskuse, seznam
+
+
+…tísňový signál SOS ( poslech)…
+
+Článekkdekoliv v textu(obvykle v závorce)
+
+
+{{Poslech|nazev_souboru=soubor.ogg|titulek=titulek|popis=slovní popis}}
+diskuse, seznam
+
+
+
+Roosevelt 1941
+
+
+Projev Franklina D. Roosevelta po útoku na Pearl Harbor
+Problémy s přehráváním? Nápověda.
+
+
+Článekkdekoli
+
+
+{{Multiposlech začátek}}
++ {{Multiposlech položka|název souboru=soubor.ogg|titulek=titulek|popis=slovní popis}}
++ {{Multiposlech konec}}
+diskuse, seznam
+
+
+
+
+
+
+
+
+
+
+Vivaldi Spring mvt 1: Allegro (info)
+
+
+Z Vivaldiho Čtvero řočních období. John Harrison, housle
+
+
+Vivaldi Spring mvt 2: Largo (info)
+
+
+Z Vivaldiho Čtvero řočních období. John Harrison, housle
+
+
+Máte problémy s přehráváním? Vizte nápovědu.
+
+
+
+
+
+
+Článekkdekoli
+
+
+
+
+
+Citováno z „https://cs.wikipedia.org/w/index.php?title=Wikipedie:Šablony&oldid=16485495“
+Kategorie: Wikipedie:Šablony
+
+
+
+
+Navigační menu
+
+
+Osobní nástroje
+
+Nejste přihlášen(a)DiskusePříspěvkyVytvoření účtuPřihlášení 
+
+
+
+Jmenné prostory
+
+Stránka projektuDiskuse 
+
+
+
+
+Varianty
+
+
+
+
+
+
+
+Zobrazení
+
+ČístEditovatEditovat zdrojZobrazit historii 
+
+
+
+Další
+
+
+
+
+
+Hledání
+
+
+
+ 
+
+
+
+
+
+
+
+Navigace
+
+
+Hlavní stranaNápovědaPotřebuji pomocNejlepší článkyNáhodný článekPoslední změnyKomunitní portálPod lípouPodpořte Wikipedii 
+
+
+
+Nástroje
+
+
+Odkazuje semSouvisející změnyNačíst souborSpeciální stránkyTrvalý odkazInformace o stráncePoložka Wikidat 
+
+
+
+Tisk/export
+
+
+Vytvořit knihuStáhnout jako PDFVerze k tisku 
+
+
+
+Na jiných projektech
+
+
+Wikimedia CommonsWikiknihyWikizprávyWikicitátyWikizdrojeWikislovník 
+
+
+
+V jiných jazycích
+
+
+AcèhAfrikaansÆngliscБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBrezhonegBosanskiCatalàНохчийнKaszëbscziDanskΕλληνικάEnglishEsperantoEestiفارسیSuomiFøroysktFryskGalegoHrvatskiMagyarՀայերենBahasa Indonesia日本語ҚазақшаLatinaLëtzebuergeschLietuviųBasa BanyumasanМакедонскиPlattdüütschNederlandsNorsk nynorskNorskNovialOccitanPolskiپښتوPortuguêsРусскийРусиньскыйسنڌيSrpskohrvatski / српскохрватскиසිංහලSlovenčinaСрпски / srpskiSvenskaதமிழ்ТоҷикӣTagalogУкраїнська 
+Upravit odkazy 
+
+
+
+
+
+ Stránka byla naposledy editována 24. 9. 2018 v 09:02.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+
+
+Ochrana osobních údajů
+O Wikipedii
+Vyloučení odpovědnosti
+Vývojáři
+Prohlášení o cookies
+Mobilní verze
+
+
+
+ 
+
+ 
+
+
+
+
+
+

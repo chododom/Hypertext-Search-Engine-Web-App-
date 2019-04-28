@@ -1,0 +1,273 @@
+https://cs.wikipedia.org/wiki/Wikipedie:Spr%C3%A1vci
+
+
+
+
+
+
+
+
+
+
+
+Wikipedie:Správci
+
+Z Wikipedie, otevřené encyklopedie
+
+
+Skočit na navigaci
+Skočit na vyhledávání
+
+
+Zkratka:
+
+
+WP:S
+
+Správce je wikipedista s „právy správce“, která mu technicky umožňují vykonávat některé speciální úkony na české Wikipedii. Tato práva jsou přidělována uživatelům, které komunita považuje za zkušené a důvěryhodné. Správci však nejsou zvláštní autoritou nadřazenou ostatním uživatelům a při výkonu své funkce by se měli řídit pravidly a konsenzem komunity.
+
+Potřebuji pomoc – Nástěnka správců – Seznam všech správců – Žádost o práva správce – Archiv hlasování o správcích – Správci chronologicky – Výroční měsíce správců
+Komunita pověřuje správce vykonáváním důležitých údržbových prací, které vyžadují oprávnění správce a nejsou povoleny ostatním uživatelům. Mezi tyto práce patří např. vyhodnocování konsenzu a provádění výsledků diskuse o smazání, kontrola nových či změněných stránek, mazání zřejmého vandalismu, blokování vandalů nebo pomoc uživatelům s činnostmi, která vyžadují správcovská práva. Dále správci vykonávají rozhodnutí učiněná arbitrážním výborem.
+Jelikož jsou správci zkušenými uživateli, ostatní wikipedisté žádající o pomoc či radu se často obracejí právě na správce.
+Je samozřejmým předpokladem, že i správci své úkoly vykonávají s uvážením a zodpovědně.
+
+Obsah
+
+1 Oprávnění správců
+
+1.1 Zamčené stránky
+1.2 Mazání a obnovování smazaných stránek
+1.3 Vracení změn
+1.4 Skrývání vandalismu ze stránky posledních změn
+1.5 Zablokování a odblokování uživatele
+1.6 Vzhled a texty rozhraní
+1.7 Konfigurování editačních filtrů
+1.8 Importování ze sesterských projektů
+1.9 Prověřování nových stránek
+1.10 Správa značek
+
+
+2 Ostatní úrovně přístupu
+
+2.1 Přihlášení uživatelé
+2.2 Patroláři
+2.3 Revertéři
+2.4 Správci rozhraní
+2.5 Boti
+2.6 Byrokraté
+2.7 Revizoři
+2.8 Globální přejmenovávači
+2.9 Stevardi
+2.10 Vývojáři a systémoví správci
+
+
+3 Zneužívání pravomocí správce
+4 Související stránky
+5 Externí odkazy
+
+
+Oprávnění správců[editovat | editovat zdroj]
+Software MediaWiki, na kterém Wikipedie běží, obsahuje množství funkcí s omezeným přístupem. Z těchto funkcí mají správci povoleno následující (kompletní seznam):
+
+Zamčené stránky[editovat | editovat zdroj]
+Zamykat, resp. polozamykat (pouze před anonymy a čerstvě registrovanými účty s málo editacemi), a odemykat stránky, pokud si to vynutí zvláštní okolnosti – vizte Wikipedie:Zamčené stránky.
+Přímo zamčené stránky editovat (což se ovšem většinou nedoporučuje); ostatní uživatelé mohou změny zamčených stránek navrhovat na jejich diskusních stránkách.
+Mazání a obnovování smazaných stránek[editovat | editovat zdroj]
+Mazat stránky a soubory včetně jejich historie. Wikipedisté navrhují stránky ke smazání na stránce Wikipedie:Diskuse o smazání; pokud je tam učiněno rozhodnutí stránku smazat, některý ze správců to vykoná. Někdy je smazání stránky čistě technickou záležitostí, např. když přesměrování překáží při přejmenování stránky nebo pro opravu stránky, jejíž historie byla poškozena. Jindy se mazáním odstraňuje zjevný vandalismus nebo materiál, který porušuje autorská práva.
+Prohlížet smazané stránky a soubory a obnovovat je.
+Vracení změn[editovat | editovat zdroj]
+Rychle vracet změny stránek (revertovat). Jakýkoli uživatel (přihlášený i nepřihlášený) může stránku vrátit na dřívější verzi. Správci mají rychlejší, automatizovaný nástroj pro vracení, který jim umožňuje vracet vandalismus. V seznamu příspěvků uživatele nebo znázornění rozdílů mezi dvěma verzemi stránky je u každé změny, která je pro danou stránku aktuální, odkaz ve tvaru [rychlý revert]. Kliknutím na tento odkaz se článek vrátí na poslední verzi, kterou nevytvořil daný uživatel, přičemž tato změna je označena jako malá editace, se shrnutím Editace uživatele "X" vrácena do předchozího stavu, jehož autorem je "Y". O tuto funkci si mohou uživatelé, kteří nejsou správci, zažádat na stránce Patroláři a revertéři.
+Skrývání vandalismu ze stránky posledních změn[editovat | editovat zdroj]
+Správci mohou ze stránky Poslední změny skrývat vandalismus. K tomu stačí k URL pro přístup k seznamu uživatelových příspěvků přidat &bot=1, např. //cs.wikipedia.org/w/index.php?title=Speci%C3%A1ln%C3%AD:P%C5%99%C3%ADsp%C4%9Bvky&target=Vandal&bot=1. Pokud se na této stránce klikne na odkaz pro vrácení změn, bude jak původní editace, tak editace obnovující nový stav skryta z implicitního zobrazení seznamu posledních změn (bude označena příznakem bot). Změny nejsou skryty ze seznamu uživatelových příspěvků, historií stránek či uživatelského seznamu sledovaných stránek, pouze se implicitně nezobrazují, pro jejich zobrazení je třeba kliknout na odkaz „zobrazit boty“. Cílem této funkce je omezit obtěžování vandalem. Tato vlastnost nesmí být používána při vracení běžné úpravy, pouze pro jednoduché případy jasného vandalismu.
+Zablokování a odblokování uživatele[editovat | editovat zdroj]
+Správci mohou blokovat a odblokovávat IP adresy, rozsahy IP adres a uživatelské účty, na určenou dobu nebo do odvolání (Speciální:Blokovaní uživatelé je seznam právě zablokovaných uživatelů a Kniha zablokování obsahuje záznamy dřívějších blokování).
+Vzhled a texty rozhraní[editovat | editovat zdroj]
+Správci mohou měnit text uživatelského rozhraní editací většiny stránek ve jmenném prostoru MediaWiki, které nemohou editovat běžní uživatelé.
+Konfigurování editačních filtrů[editovat | editovat zdroj]
+Správci mohou vytvářet a měnit editační filtry, které umožňují automatizované odchytávání editačních chyb ještě před uložením editace. Také si mohou prohlížet i filtry, jejichž obsah je ostatním skrytý.
+Importování ze sesterských projektů[editovat | editovat zdroj]
+Správci mohou importovat stránku z českých sesterských projektů (Wikislovník, Wikizdroje, Wikicitáty, Wikiknihy, Wikizprávy, Wikiverzita). Na rozdíl od ručního kopírování je přitom zachována jejich úplná historie.
+Prověřování nových stránek[editovat | editovat zdroj]
+Správci mohou označovat prověřené stránky z knihy nejnovějších stránek. Prověřené položky seznamu mají bílé pozadí, neprověřené mají žluté pozadí. O tuto funkci si mohou uživatelé, kteří nejsou správci, požádat prostřednictvím stránky Patroláři a revertéři.
+Správa značek[editovat | editovat zdroj]
+Správci mají také rozšířené možnosti nakládání se značkami. Mohou je vytvářet, aktivovat či deaktivovat pro ostatní uživatele nebo mazat z databáze.
+Ostatní úrovně přístupu[editovat | editovat zdroj]
+Na tuto kapitolu je přesměrováno heslo Nápověda:Práva uživatelských skupin.
+Kromě správců má MediaWiki několik dalších úrovní přístupu, zde setříděné zhruba podle vzrůstajících oprávnění.
+
+Přihlášení uživatelé[editovat | editovat zdroj]
+Běžní uživatelé, včetně anonymních návštěvníků, kteří se „nepřihlásili“, mohou dělat většinu věcí, včetně těch nejdůležitějších: editovat články a pomáhat s údržbou Wikipedie.
+Ale pouze přihlášení uživatelé mohou přejmenovávat stránky a načítat soubory na úložiště Wikimedia Commons.
+
+Patroláři[editovat | editovat zdroj]
+Související informace naleznete také na stránce Wikipedie:Patroláři a revertéři.
+Patroláři mohou označovat stránky a editace jako prověřené, pokud není třeba, aby ji kontroloval nějaký zkušený uživatel, tj. pokud bylo zběžně zkontrolováno, zda je téma encyklopedicky významné nebo zda článek nepotřebuje jinou urgentní úpravu anebo zda článek není porušením autorských práv.
+
+Revertéři[editovat | editovat zdroj]
+Související informace naleznete také na stránce Wikipedie:Patroláři a revertéři.
+Revertéři mohou rychle revertovat editace. Na rozdíl od správců ale nemohou takto rychle revertované editace označit jako provedené robotem a skrýt je tak z posledních změn.
+
+Správci rozhraní[editovat | editovat zdroj]
+Související informace naleznete také na stránce Wikipedie:Správci rozhraní.
+Správci rozhraní mohou editovat stránky ve jmenném prostoru MediaWiki a také editovat skripty spouštěné pro všechny návštěvníky Wikipedie (což správci nemohou).
+
+Boti[editovat | editovat zdroj]
+Související informace naleznete také na stránce Wikipedie:Bot.
+Editace uživatelů s příznakem bot se nezobrazují na stránce posledních změn. Používají ho automatické skripty (boti) editující velké množství stránek.
+
+Byrokraté[editovat | editovat zdroj]
+Související informace naleznete také na stránce Wikipedie:Byrokraté.
+Byrokraté (dříve také správci se zvláštními právy) mohou udělit ostatním uživatelům práva správce (ale nikoli je zpětně odebrat). Přidělování práv je zaznamenáváno v Knize práv. Byrokraté také mohou přidělovat či odebírat uživatelskému účtu příznak bot.
+
+Revizoři[editovat | editovat zdroj]
+Související informace naleznete také na stránce Wikipedie:Revizoři.
+Mohou to být správci nebo běžní uživatelé. Mají přístup k rozhraní Speciální:CheckUser, které jim umožňuje zjistit IP adresu přihlášeného uživatele nebo všechny editace z dané IP adresy, ať již přihlášených, nebo anonymních uživatelů.
+
+Globální přejmenovávači[editovat | editovat zdroj]
+Uživatelé s tímto oprávněním (Global Renamer) mohou měnit uživatelům na základě jejich žádosti uživatelská jména. 
+
+Stevardi[editovat | editovat zdroj]
+Na tuto kapitolu je přesměrováno heslo Wikipedie:Stevardi.
+Uživatelé s právem „stevard“ (angl. steward) mohou využívat práv jakékoliv uživatelské skupiny a libovolně měnit uživatelská práva libovolného uživatele, obojí na libovolném projektu nadace Wikimedia. Stevardi také mohou jako jediní měnit globální uživatelská práva a přidělit tak práva globálního revertéra nebo globálního správce.
+Stevardi ale nesmějí využívat svých oprávnění tam, kde to není buďto urgentní záležitost (zablokování vandala v době, kdy není aktivní žádný lokální správce), nebo záležitost vyžadující oprávnění, které nikdo lokálně nemá (mj. na projektech bez byrokratů přiděluje práva správce, na projektech bez revizorů zjišťuje, zda jeden uživatel není loutkou druhého, apod.). 
+To jim umožňuje jako jediným odebírat správcovská práva. Jejich činnost je zaznamenávána na Meta Wiki a v protokolovacích záznamech projektů, na kterých využili svých oprávnění. Žádosti o jejich pomoc patří na stránku meta:Steward requests či na IRC kanál #wikimedia-stewards.
+
+Vývojáři a systémoví správci[editovat | editovat zdroj]
+Vývojář je obvykle zaměstnanec nadace Wikimedia, který se stará o vývoj software MediaWiki, tj. přidává do něj nové funkce, vytváří rozšíření či přidává nové možnosti přizpůsobení vzhledu. Tyto změny se týkají nejen projektů Nadace Wikimedia, ale všech projektů využívajících softwaru MediaWiki. Vývojáři obvykle nejsou aktivní v komunitě Wikipedie, ale starají se pouze o software MediaWiki jako takový. 
+Systémový správce je obvykle také zaměstnanec Nadace Wikimedia, jehož odpovědností je spravovat servery, na kterých projekty Wikimedia patří. Jeho aktivita je tedy na rozdíl od vývojářů přímo vázána na projekty Wikimedia. Tam, kde uživatelé obvykle mluví o kontaktování „vývojářů“, jsou nejčastěji mínění právě systémoví správci, jelikož ti např. mohou:
+
+vytvořit novou uživatelskou skupinu, existující uživatelskou skupinu smazat anebo změnit její práva
+vytvořit nový jmenný prostor, existující smazat anebo změnit jeho název
+změnit logo zobrazované v levém rohu Wikipedie
+a další podobné úkoly
+Obě dvě úrovně přístupu jsou ve skutečnosti celou škálou přístupů. Jelikož tyto rozdíly nejsou pro běžné uživatele vidět, na této stránce jsou tyto skupiny velmi zobecněny. V obou ze zmíněných skupin se také vyskytují nejen zaměstnanci nadace Wikimedia, ale ve značné míře i dobrovolníci. 
+Vývojáři i systémoví správci používají Phabricator pro příjem a vyřizování úkolů, vytvářených komunitou, technicky zdatnými uživateli i vývojáři/systémovými správci. Vývojáři i systémoví správci používají i řadu dalších systémů a nástrojů, ty ale nejsou důležité pro komunitu Wikipedie. Pro komunikaci v reálném čase je také možné využít IRC kanál #wikimedia-tech.
+
+Zneužívání pravomocí správce[editovat | editovat zdroj]
+Správci mohou být oprávnění odebrána, pokud jich zneužívá. V současné době může být správcovství odebráno buď rozhodnutím správní rady Nadace Wikimedia (v praxi se nevyužívá), rozhodnutím arbitrážního výboru nebo rozhodnutím komunity, jak je podrobněji popsáno na stránce žádosti o práva správce. Lze zavést i mírnější opatření, např. omezení využívání některých schopností. Technicky mohou administrátorská práva odebrat stevardi.
+Máte-li pocit, že vás správce utlačuje, použijte proces řešení sporů. Pokud s ním není domluva (správci, stejně jako všichni ostatní, upřednostňují faktické argumenty poukazující na nevhodnost jejich jednání před obviňováním z totality a zlovůle), můžete si vyžádat názor komunity na stránce Žádost o komentář. V závažnějších případech se obraťte na Arbitrážní výbor se žádostí o opatření nebo o arbitráž.
+
+Související stránky[editovat | editovat zdroj]
+Wikipedie:Správci rozhraní
+Wikipedie:Techničtí správci
+Externí odkazy[editovat | editovat zdroj]
+Poslední aktivita správců
+Celková aktivita správců (100 dní)
+
+
+
+
+Citováno z „https://cs.wikipedia.org/w/index.php?title=Wikipedie:Správci&oldid=16870051“
+Kategorie: Wikipedie:Správce
+
+
+
+
+Navigační menu
+
+
+Osobní nástroje
+
+Nejste přihlášen(a)DiskusePříspěvkyVytvoření účtuPřihlášení 
+
+
+
+Jmenné prostory
+
+Stránka projektuDiskuse 
+
+
+
+
+Varianty
+
+
+
+
+
+
+
+Zobrazení
+
+ČístEditovatEditovat zdrojZobrazit historii 
+
+
+
+Další
+
+
+
+
+
+Hledání
+
+
+
+ 
+
+
+
+
+
+
+
+Navigace
+
+
+Hlavní stranaNápovědaPotřebuji pomocNejlepší článkyNáhodný článekPoslední změnyKomunitní portálPod lípouPodpořte Wikipedii 
+
+
+
+Nástroje
+
+
+Odkazuje semSouvisející změnyNačíst souborSpeciální stránkyTrvalý odkazInformace o stráncePoložka Wikidat 
+
+
+
+Tisk/export
+
+
+Vytvořit knihuStáhnout jako PDFVerze k tisku 
+
+
+
+Na jiných projektech
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikidruhyWikiknihyWikidataWikizprávyWikicitátyWikizdrojeWikiverzitaWikislovník 
+
+
+
+V jiných jazycích
+
+
+Qafár afАҧсшәаAcèhАдыгабзэAfrikaansAkanAlemannischአማርኛAragonésÆngliscالعربيةܐܪܡܝܐمصرىঅসমীয়াAsturianuAtikamekwАварAymar aruAzərbaycancaتۆرکجهБашҡортсаBoarischŽemaitėškaБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBahasa BanjarBamanankanবাংলাབོད་ཡིགবিষ্ণুপ্রিয়া মণিপুরীBrezhonegBosanskiᨅᨔ ᨕᨘᨁᨗБуряадCatalàChavacano de ZamboangaНохчийнCebuanoᏣᎳᎩکوردیNēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣQırımtatarcaKaszëbscziЧӑвашлаCymraegDanskDeutschZazakiDolnoserbskiދިވެހިބަސްEʋegbeΕλληνικάEmiliàn e rumagnòlEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیFulfuldeSuomiVõroNa Vosa VakavitiFøroysktFrançaisArpetanNordfriiskFurlanFryskGaeilgeGagauz贛語GàidhligGalegoگیلکیBahasa HulontaloગુજરાતીGaelgHausa客家語/Hak-kâ-ngîHawaiʻiעבריתहिन्दीHrvatskiHornjoserbsceKreyòl ayisyenMagyarՀայերենInterlinguaBahasa IndonesiaInterlingueIgboIñupiakIlokanoГӀалгӀайIdoÍslenskaItalianoᐃᓄᒃᑎᑐᑦ/inuktitut日本語PatoisLa .lojban.Basa JawaქართულიQaraqalpaqshaKongoGĩkũyũҚазақшаKalaallisutಕನ್ನಡ한국어Къарачай-малкъарकॉशुर / کٲشُرRipoarischKurdîKernowekКыргызчаLatinaLadinoLëtzebuergeschЛезгиLugandaLimburgsLigureLumbaartLingálaລາວLietuviųLatgaļuLatviešuमैथिलीBasa BanyumasanМокшеньMalagasyОлык марийMāoriBaso MinangkabauМакедонскиമലയാളംМонголमराठीBahasa MelayuMaltiMirandésမြန်မာဘာသာЭрзяньمازِرونیDorerin NaoeroNāhuatlNapulitanoPlattdüütschNedersaksiesनेपालीOshiwamboNederlandsNorsk nynorskNorskNouormandSesotho sa LeboaDiné bizaadChi-ChewaOccitanଓଡ଼ିଆИронPangasinanKapampanganPicardDeitschPälzischपालिNorfuk / PitkernPolskiPiemontèisپنجابیپښتوPortuguêsRuna SimiRomaniRomânăTarandíneРусскийKinyarwandaसंस्कृतम्Саха тылаSarduSicilianuScotsسنڌيDavvisámegiellaSängöSrpskohrvatski / српскохрватскиၽႃႇသႃႇတႆး සිංහලSimple EnglishSlovenčinaSlovenščinaGagana SamoaSoomaaligaShqipСрпски / srpskiSiSwatiSeelterskBasa SundaSvenskaKiswahiliŚlůnskiதமிழ்ತುಳುతెలుగుTetunТоҷикӣไทยTürkmençeTagalogLea faka-TongaTok PisinTürkçeXitsongaТатарча/tatarçaChiTumbukaTwiУдмуртئۇيغۇرچە / UyghurcheУкраїнськаاردوOʻzbekcha/ўзбекчаTshivendaVènetoTiếng ViệtWest-VlamsVolapükWalonWinarayWolof吴语მარგალურიייִדישYorùbá中文文言Bân-lâm-gú粵語IsiZulu 
+Upravit odkazy 
+
+
+
+
+
+ Stránka byla naposledy editována 18. 1. 2019 v 21:40.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+
+
+Ochrana osobních údajů
+O Wikipedii
+Vyloučení odpovědnosti
+Vývojáři
+Prohlášení o cookies
+Mobilní verze
+
+
+
+ 
+
+ 
+
+
+
+
+
+

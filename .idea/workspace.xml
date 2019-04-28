@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ee3916f-f888-4539-b931-16db7eaaf9b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/indexdir/MAIN_etv6v615jfpqxjz7.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/indexdir/_MAIN_1.toc" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/indexdir/_MAIN_1.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/0" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/1" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/102" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/102" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/104" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/104" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/13" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/14" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/16" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/17" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/17" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/19" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/20" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/21" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/21" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/24" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/25" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/28" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/30" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/30" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/32" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/32" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/36" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/36" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/37" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/37" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/38" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/38" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/39" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/39" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/40" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/40" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/42" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/42" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/48" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/48" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/49" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/49" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/5" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/51" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/51" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/53" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/53" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/55" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/55" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/56" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/56" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/57" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/57" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/58" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/66" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/66" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/67" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/67" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/68" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/68" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/69" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/69" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/73" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/73" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/77" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/77" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/8" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/80" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/83" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/83" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/86" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/88" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/88" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/90" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/92" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/92" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/96" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/96" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/97" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/97" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/98" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/98" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_contents/99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_ranks/ranks" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/pagerank/page_ranks/ranks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypertext_search_engine_web_app/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/hypertext_search_engine_web_app/templates/search.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hypertext_search_engine_web_app/hypertext_search_engine_web_app/urls.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hypertext_search_engine_web_app/templates/search.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/manage.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/hypertext-search-engine-web-app.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="280" />
+    <option name="y" value="27" />
+    <option name="width" value="1030" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hypertext-search-engine-web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hypertext-search-engine-web-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hypertext-search-engine-web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hypertext-search-engine-web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="hypertext_search_engine_web_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hypertext-search-engine-web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hypertext_search_engine_web_app" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hypertext_search_engine_web_app" />
+      <recent name="$PROJECT_DIR$/hypertext_search_engine_web_app/templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ee3916f-f888-4539-b931-16db7eaaf9b2" name="Default Changelist" comment="" />
+      <created>1556446123783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556446123783</updated>
+      <workItem from="1556446125991" duration="250000" />
+      <workItem from="1556446472819" duration="572000" />
+      <workItem from="1556447068226" duration="204000" />
+      <workItem from="1556447344643" duration="373000" />
+      <workItem from="1556475681189" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1438000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="280" y="27" width="1030" height="1053" extended-state="4" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34146342" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3300866" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PageRank_UI/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/PageRank_UI/settings.py" />
+    <entry file="file://$PROJECT_DIR$/PageRankApp/admin.py" />
+    <entry file="file://$PROJECT_DIR$/PageRank_UI/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/stocks/migrations/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/stocks/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/stocks/admin.py" />
+    <entry file="file://$PROJECT_DIR$/stocks/apps.py" />
+    <entry file="file://$PROJECT_DIR$/manage.py" />
+    <entry file="file://$PROJECT_DIR$/hypertext_search_engine_web_app/hypertext_search_engine_web_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hypertext_search_engine_web_app/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hypertext_search_engine_web_app/PageRankApp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

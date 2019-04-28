@@ -1,0 +1,344 @@
+https://cs.wikipedia.org/wiki/Aerodynamika
+
+
+
+
+
+
+
+
+
+
+
+Aerodynamika
+
+Z Wikipedie, otevřené encyklopedie
+
+
+Skočit na navigaci
+Skočit na vyhledávání
+ Kouřem odhalená turbulence v úplavu, která vzniká za křídlem letadla
+Aerodynamika (z řečtiny ἀήρ  aer – vzduch + δυναμική – dynamika) je obor fyziky, speciálně mechaniky, zabývající se studiem pohybu plynů (obvykle vzduchu) a jejich interakcí s pevnými objekty, jako je například křídlo letadla. Je součástí aeromechanika. Fyzikální principy jsou zcela identické i v opačném případě, a to při pohybu pevných těles v plynném prostředí. Na principu relativního pohybu se následně provádí analýza fyzikálních jevů. Většinou v případě, kdy je objekt v klidu a proudí kolem něj vzduch. Výměna referenčního stavu je aplikována v teoretické aerodynamice, která je základem většiny experimentálních metod, zejména aerodynamického tunelu.
+Aerodynamika má největší význam v letectví, automobilismu a architektuře.
+Aerodynamika je podoblast dynamiky kapalin a dynamiky plynů a mnoho aspektů teorie aerodynamiky mají tyto oblasti společné. Termín „aerodynamika“ je často používána jako synonymum pro dynamiku plynů s tím rozdílem, že „dynamika plynů“ je aplikována na studium pohybu všech plynů a není omezena pouze na vzduch.
+Formální studie aerodynamiky v moderním pojetí začaly v 18. století, přestože pozorování základních konceptů aerodynamiky jako např. aerodynamického odporu, byly zaznamenány mnohem dříve. Mnoho z počátečního úsilí v aerodynamice se zaměřovalo na dosažení letu letadla těžšího než vzduch, který byl poprvé demonstrován bratry Wrighty v roce 1903. Od té doby využití aerodynamiky prostřednictvím matematické analýzy, empirických aproximací, experimentů v aerodynamických tunelech a počítačových simulací vytvořilo vědecký základ pro další vývoj letadel těžších než vzduch a mnoho dalších technologií. Současně směrování aerodynamiky se soustřeďuje na otázky týkající se vlivu stlačitelnosti vzduchu, turbulence a mezní vrstvy.
+
+Obsah
+
+1 Základní pojmy
+
+1.1 Klasifikace proudění
+
+1.1.1 Stlačitelnost
+1.1.2 Viskozita
+1.1.3 Prostředí proudění
+
+
+1.2 Předpoklad kontinua
+
+
+2 Aerodynamický tvar
+3 Výpočetní metody
+
+3.1 Úvod
+3.2 Podzvuková aerodynamika
+3.3 Supersonická aerodynamika
+3.4 Hypersonická aerodynamika
+
+
+4 Odkazy
+
+4.1 Reference
+4.2 Související články
+4.3 Externí odkazy
+
+
+
+
+Základní pojmy[editovat | editovat zdroj]
+Pochopení pohybu vzduchu kolem objektu umožňuje výpočet sil a momentů působících na objekt. V mnoha aerodynamických problémech jsou zkoumány síly právě základními silami letu:
+
+Vztlak
+Aerodynamický odpor
+Tah
+Tíha
+Z nich jsou vztlak a odpor aerodynamickými sílami, tj. síly vyvolané prouděním vzduchu kolem pevného tělesa. Výpočet těchto veličin je často založen na předpokladu, že pole proudění se chová jako kontinuum. Pole proudění kontinua je charakterizováno vlastnostmi jako rychlost, tlak, hustota a teplota, které mohou být funkcí prostorové polohy a času. Tyto vlastnosti mohou být přímo nebo nepřímo měřené v aerodynamických experimentech nebo počítány z rovnic pro zachování hmoty, hybnosti a energie proudu vzduchu. Hustota, rychlost, viskozita a další vlastnosti jsou použity ke klasifikací proudového pole.
+
+Klasifikace proudění[editovat | editovat zdroj]
+Rychlost proudu vzduchu je použita ke klasifikací proudění podle režimu rychlosti.
+
+Podzvukové nebo subsonické proudění je pole proudu vzduchu v němž má vzduch podél celé zkoumané délky proudu místní rychlost menší než je rychlost zvuku. Místní rychlost je rychlost proudu tekutiny, která je měřena v určitém místě na obtékaném objektu.
+Transonické nebo okolozvukové proudění obsahuje pole s podzvukových i nadzvukovým prouděním.
+Nadzvukové nebo  suprasonické proudění  je definováno jako proudění, v němž je rychlost větší než rychlost zvuku podél celého toku.
+Hypersonické proudění je tok, ve kterém jsou rychlosti proudění mnohem vyšší než je rychlost zvuku. Odborníci v aerodynamice se neshodli na přesné definici hypersonického proudění.
+Stlačitelnost[editovat | editovat zdroj]
+Od stlačitelnosti proudění závisí měnící se hustota vzduchu, protože nastává zmenšení objemu vzduchu při kompresi (zvýšení tlaku vzduchu). V aerodynamice platí, že podzvukové proudění je často považováno za nestlačitelné a v tomto případě zůstává hustota vzduchu konstantní. Částice vzduchu se pohybují v dráze stejných proudnic.
+Okolozvukové a nadzvukové proudění se považuje za stlačitelné a zanedbání stlačitelnosti prostředí se změnou hustoty proudu vzduchu při provádění výpočtů vede k nepřesným výsledkům. Vliv stlačitelnosti se bere v úvahu od rychlostí vyšších než 500 - 600 km/h.
+
+Viskozita[editovat | editovat zdroj]
+Viskozita souvisí s vnitřním třením v proudícím vzduchu, což představuje sílu, která působí proti směru proudění částic vzduchu. V některým proudových polích jsou vlivy viskozity velmi malé a řešení výpočtů je mohou zanedbávat. Tyto aproximace se nazývají neviskozní proudy. Proudy vzduchu u kterých není zanedbaný vliv viskozity se nazývají viskózní proudy.
+
+Prostředí proudění[editovat | editovat zdroj]
+Nakonec mohou být aerodynamické problémy klasifikovány prostředím proudění:
+
+Vnější aerodynamika je studiem proudění kolem pevných objektů různých tvarů (např. okolo křídla letadla)
+Vnitřní aerodynamika se zabývá studiem proudu vzduchu přes průchody v pevných objektech (např. skrz proudový motor letadla).
+Předpoklad kontinua[editovat | editovat zdroj]
+Na rozdíl od kapalin a pevných látek jsou plyny tvořeny jednotlivými molekulami, které zabírají pouze malou část objemu tvořenou plynem. Na molekulární úrovni se proudící pole skládá z mnoha individuálních kolizí mezi molekulami plynu a pevných povrchů. Ve většině aerodynamických aplikací je ale tato diskrétní molekulární podstata plynů zanedbaná a proudící pole je považováno za kontinuum. <! - Tento předpoklad umožňuje kdekoliv určit vlastnosti kapaliny v rámci proudění jako hustotu, nebo jeho rychlost. ->
+Platnost předpokladu kontinua závisí na hustotě plynu a konkrétní aplikaci. Aby byl předpoklad kontinua platný, musí být střední volná dráha o dost menší než délka rozsahu konkrétní aplikace. Například mnoho aerodynamických aplikací se zabývá letem letadla v atmosférických podmínkách, kde střední volná délka je v řádech mikrometrů. V těchto případech se délková míra letadla pohybuje od několika metrů až do několika desítek metrů, což představuje o dost větší délku než střední volná délka. Pro tyto aplikace platí předpoklad kontinua.
+Předpoklad kontinua je méně opodstatněný pro proudění s extrémně nízkou hustotou s jakou se letouny setkávají ve vysokých hladinách (např. 300 000 ft nebo 91,4 km) nebo satelity na nízké oběžné dráze Země. V těchto případech je statistická mechanika k řešení problémů vhodnější než kontinuální aerodynamika. K výběru mezi statistickou mechanikou a kontinuální formulací aerodynamiky může být použito tzv. Knudsenovo číslo.
+
+
+Tato část článku potřebuje úpravy.
+Můžete Wikipedii pomoci tím, že ji vylepšíte. Jak by měly články vypadat, popisují stránky Vzhled a styl, Encyklopedický styl a Odkazy.
+
+
+Proudění vzduchu je relativní. To znamená, že na těleso působí stále stejné síly pokud je těleso vůči okolí v klidu a vzduch kolem něj obtéká nebo naopak.
+Při obtékání těles proudem vzduchu se na jeho jednotlivých površích více či méně tento vzduch stlačuje a tím se vytváří nerovnoměrné tlakové pole, které způsobuje silovou nerovnováhu. Tlak vzduchu lze uvažovat třemi způsoby:
+
+Statický tlak – lze naměřit ve chvíli, kdy se vzduch nepohybuje.
+Dynamický tlak – lze naměřit za pohybu vzduchu jako pokles statického tlaku.
+Celkový tlak – je součet statického a dynamického tlaku.
+Součet statického a dynamického tlaku je konstantní, a proto, pokud se těleso vůči okolnímu vzduchu nepohybuje, je statický tlak maximální a dynamický tlak nulový. V případě pohybu pak stoupá dynamický tlak a statický o tutéž hodnotu klesá. S rostoucí rychlostí roste i dynamický tlak. Pokud je ofukované těleso asymetrické, proudění vzduchu kolem něj bude také asymetrické a na jedné straně bude rychlost obtékání větší než na straně druhé, na straně kde bude vyšší rychlost bude vyšší dynamický a nižší statický tlak. Nerovnováha statického tlaku způsobí vznik aerodynamické síly. Aerodynamická síla umožňuje létat letadlům těžším vzduchu.
+Částice vzduchu se spojují do proudnic (dráha vybrané částice vzduchu) a ty se spojují do tzv. proudového svazku, existují 3 typy proudění:
+
+laminární (ustálené) – proudnice jsou zhruba rovnoběžné (jejich dráhy se nekříží), částice se posouvají, ale nerotují.
+turbulentní (vířivé) – proudnice se vlivem prostředí roztáčejí a následně se začínají křížit.
+vírové proudění - krouživý pohyb tekutiny okolo určité křivky, která tvoří jeho osu. Směrem k ose víru dochází zpočátku k růstu rychlosti a poklesu tlaku. V blízkosti osy víru (vírového jádra) dochází vlivem vazkosti (vnitřního tření) k poklesu rychlosti, která je v ose víru nulová.
+Přechod mezi laminárním a turbulentním prouděním je dán Reynoldsovým číslem.
+
+Aerodynamický tvar[editovat | editovat zdroj]
+Aerodynamický tvar má nejmenší součinitel odporu ve srovnání se součiniteli pro jiné tvary. Svým tvarem připomíná kapku.
+Aerodynamický tvar je tvar, který bývá vpředu zakulacený a vzadu do špičky. Je to tvar, který v maximálně možné míře zachovává laminární proudění plynu nebo kapaliny kolem sebe, při kterém je odpor prostředí mnohem menší než při turbulentním proudění.
+
+Výpočetní metody[editovat | editovat zdroj]
+Úvod[editovat | editovat zdroj]
+ Příklad výpočetní mřížky pro aerodynamický profil. Hustota byla zvolena nižší dál od profilu. Výpočetní body jsou tam, kde se protínají zhruba kolmé čáry (nakreslené nejsou všechny). Pro názornost byla hustota zvolena nižší, v simulacích bývá mřížka mnohem hustší.
+Problémy při výpočtech aerodynamiky způsobuje to, že proudění tekutiny závisí nejen od makroskopického tvaru, ale i od mikroskopické kvality povrchu tělesa (letadla), proto potřebuje aerodynamika podporu od jiných vědních oborů (např. chemie pro speciální povrchové nátěry). Existují dost přesné vzorce pro výpočet těchto hodnot, ale pro ideální přesnost jsou nezbytné zkoušky v aerodynamickém tunelu.
+Vlastnosti soustavy plyn/těleso se mění podle rychlosti proudění. Pro každou z těchto oblastí se používají jiné přibližné vzorce.
+Nejlepší vzorce se ale dají odvodit pomocí Maxwell-Boltzmannovy statistiky, protože dokážou popsat i vznik turbulencí a vztah ke kvalitě povrchu pevného tělesa. Dají se ale použít pouze pro počítačové simulace.
+U počítačů se okolí tělesa rozdělí na síť bodů, kde je každý bod při trojrozměrném modelu matematicky propojený na 6, při dvourozměrném jen na 4 sousední body. Tato síť může být teoreticky čtvercová, ale prakticky kopíruje zhruba radiální povrch tělesa. Hustota sítě může být rovnoměrná, ale tam, kde se očekávají hustší proudnice nebo komplikovanější průběhy proudění, se dělá hustší.
+
+Podzvuková aerodynamika[editovat | editovat zdroj]
+Podzvuková (subsonická) aerodynamika je oblast aerodynamiky, která se zabývá prouděním plynů do rychlosti 0,7 M. V rozsahu těchto rychlostí se výrazně neprojevuje stlačitelnost plynů a proto je možné při měření, výpočtech a experimentování považovat plynné médium za ideální plyn.
+Pro podzvukové rychlosti a pro laminární proudění se pro výpočet vztlaku dá v jednoduchých případech použít např. Bernoulliho rovnice:
+
+
+
+
+
+
+ρ
+2
+
+
+
+c
+
+2
+
+
++
+
+p
+
+0
+
+
+=
+
+p
+
+c
+e
+l
+k
+
+
+
+
+{\displaystyle {\frac {\rho }{2}}c^{2}+p_{0}=p_{celk}}
+
+
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+
+ je hustota plynu v 
+
+
+
+
+[
+
+
+
+k
+g
+
+
+m
+
+3
+
+
+
+
+]
+
+
+
+{\displaystyle \left[{\frac {kg}{m^{3}}}\right]}
+
+.
+Možnost vzniku turbulencí se určuje podle Reynoldsova čísla.
+Nejaerodynamičtější tvar pro podzvukové rychlosti je kapka - kapkovitý profil se na letadlech vyskytuje na cca 90% průřezech.
+Tato oblast aerodynamiky je nejlepší prozkoumána a přesnost simulací je v současnosti více než 99%.[1]
+
+Supersonická aerodynamika[editovat | editovat zdroj]
+Zabývá se zkoumáním proudění plynu při nadzvukových rychlostech v rozsahu (1 Mach až Mach 4). Nadzvuková tělesa se dají poznat podle zašpicatelého předku profilu.
+
+Hypersonická aerodynamika[editovat | editovat zdroj]
+Pro extrémně vysoké rychlosti (Mach 4 a více), kde se již plyn ionizuje nebo dokonce může změnit na plazma. Pro vysoké teploty se v úvahu bere i termodynamika a je důležitá spolupráce s vědou o materiálech . Běžné materiály jako dural se totiž při takových rychlostech roztaví. Nejznámějším příkladem hypersonickému rychlosti jsou raketoplány při průletu atmosférou.
+
+Odkazy[editovat | editovat zdroj]
+Reference[editovat | editovat zdroj]
+
+↑ Blog o aerodynamike
+
+
+Související články[editovat | editovat zdroj]
+Mechanika tekutin
+Mechanika kontinua
+Hydrodynamika
+Externí odkazy[editovat | editovat zdroj]
+ Obrázky, zvuky či videa k tématu aerodynamika ve Wikimedia Commons 
+ Slovníkové heslo aerodynamika ve Wikislovníku
+Autoritní data: GND: 4000589-6 | PSH: 3034
+Portály: Fyzika
+
+
+
+
+
+Citováno z „https://cs.wikipedia.org/w/index.php?title=Aerodynamika&oldid=17043734“
+Kategorie: AerodynamikaMechanikaSkryté kategorie: Údržba:Články k částečné úpravěMonitoring:Články s autoritní kontrolou
+
+
+
+
+Navigační menu
+
+
+Osobní nástroje
+
+Nejste přihlášen(a)DiskusePříspěvkyVytvoření účtuPřihlášení 
+
+
+
+Jmenné prostory
+
+ČlánekDiskuse 
+
+
+
+
+Varianty
+
+
+
+
+
+
+
+Zobrazení
+
+ČístEditovatEditovat zdrojZobrazit historii 
+
+
+
+Další
+
+
+
+
+
+Hledání
+
+
+
+ 
+
+
+
+
+
+
+
+Navigace
+
+
+Hlavní stranaNápovědaPotřebuji pomocNejlepší článkyNáhodný článekPoslední změnyKomunitní portálPod lípouPodpořte Wikipedii 
+
+
+
+Nástroje
+
+
+Odkazuje semSouvisející změnyNačíst souborSpeciální stránkyTrvalý odkazInformace o stráncePoložka WikidatCitovat stránku 
+
+
+
+Tisk/export
+
+
+Vytvořit knihuStáhnout jako PDFVerze k tisku 
+
+
+
+Na jiných projektech
+
+
+Wikimedia Commons 
+
+
+
+V jiných jazycích
+
+
+AfrikaansالعربيةAsturianuAzərbaycancaتۆرکجهБеларускаяБългарскиBosanskiCatalàCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisGaeilgeGalegoעבריתहिन्दीHrvatskiMagyarՀայերենBahasa IndonesiaItaliano日本語ქართულიҚазақшаಕನ್ನಡ한국어कॉशुर / کٲشُرLatinaLatviešuമലയാളംBahasa Melayuမြန်မာဘာသာNederlandsNorsk nynorskNorskPolskiPortuguêsRomânăРусскийScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaதமிழ்ТоҷикӣไทยTürkçeУкраїнськаOʻzbekcha/ўзбекчаTiếng Việt中文 
+Upravit odkazy 
+
+
+
+
+
+ Stránka byla naposledy editována 14. 3. 2019 v 12:04.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+
+
+Ochrana osobních údajů
+O Wikipedii
+Vyloučení odpovědnosti
+Vývojáři
+Prohlášení o cookies
+Mobilní verze
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+

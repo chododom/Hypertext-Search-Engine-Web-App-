@@ -1,0 +1,196 @@
+https://cs.wikipedia.org/wiki/N%C3%A1pov%C4%9Bda:Jak_editovat_str%C3%A1nku
+
+
+
+
+
+
+
+
+
+
+ve
+
+Nápověda:Jak editovat stránku
+
+Z Wikipedie, otevřené encyklopedie
+
+
+Skočit na navigaci
+Skočit na vyhledávání
+Editace stránek je základní činnost rozvíjející Wikipedii. Umožňuje opravit, vylepšit nebo doplnit již existující články, diskutovat o obsahu článků nebo o spolupráci na článcích, upravovat šablony i moduly, či jakkoliv jinak přispívat do chodu Wikipedie.
+Existující stránku můžete upravit dvěma způsoby:
+
+Pomocí tzv. Vizuálního editoru klepnutím na tlačítko Editovat v záhlaví stránky. Tato funkce zatím funguje s drobnými omezeními, která se však postupně opravují. Je doporučená pro méně technicky zdatné uživatele.
+Pomocí tzv. editoru zdroje klepnutím na tlačítko Editovat zdroj (případně také Přidat téma) v záhlaví stránky. Pomocí této funkce můžete provést i pokročilé editace. Vyžaduje však pokročilé znalosti formátování textu, proto je doporučená spíše zkušenějším uživatelům.
+Ve zbytku stránky se zaměříme spíše na první možnost.
+
+Obsah
+
+1 Otevření editační stránky
+2 Editace stránky
+3 Zveřejnění změn
+4 Psaní článku
+5 Související stránky
+
+
+Otevření editační stránky
+ Tlačítka vedle nadpisu kapitoly
+ Tlačítka záhlaví stránky
+Na stránce, kterou chcete editovat, vyberte příslušnou kapitolu, k níž se editace vztahuje, a klepněte na tlačítko editovat vedle nadpisu. Pokud chcete provést úpravy ve více částech stránky, můžete klepnout na tlačítko Editovat v záhlaví stránky. Tím otevřete editační stránku, která se příliš neliší od původní kapitoly nebo celé stránky, ale je možné do ní zasahovat a jednotlivé části libovolně upravovat. Načtení editační stránky chvíli potrvá, zvlášť při první editaci. Vyvarujte se ale prosím experimentům a vkládejte pouze ověřené informace doložené odkazy na konkrétní zdroje. K experimentům s editováním můžete případně použít tzv. pískoviště.
+Klepnutím na tlačítko Editovat zdroj nebo Přidat téma otevřete editační stránku k editaci zdroje. Můžete na ni také přepnout klepnutím na tlačítko [[ ]] na klasické editační stránce. Tato možnost je výchozí u editování diskusních stránek a šablon.
+
+Podrobnější nápovědu naleznete na stránce Nápověda:Editační stránka.
+Editace stránky
+Ve Vizuálním editoru najdete nahoře panel s nástroji na formátování textu, vkládání odkazů, referencí i obrázků. 
+
+
+Odstavce začínejte psát vždy od kraje, nevkládejte před text žádné mezery. Nový odstavec můžete vytvořit vložením nového řádku na zvolené místo nebo kliknutím na skrytý pomocný text  Vložit odstavec. Nadpisy se vkládají výběrem volby Nadpis v rozbalovací nabídce Odstavec v horní liště editační stránky. Propojení s ostatními články Wikipedie je velmi důležité, proto do článků vkládejte i odkazy na další články pomocí tlačítka . Text na stránce můžete i ztučnit nebo naklonit, případně jinak upravit pomocí rozbalovací nabídky . K textu je dobré přidat i ilustrační obrázky z Commons výběrem volby  Média v rozbalovací nabídce Vložit.
+
+Podrobnější nápovědu naleznete na stránce Nápověda:Editace ve Vizuálním editoru.
+
+Obdobné, i když trochu složitější, je to při editaci ve zdrojovém kódu.
+
+
+I na editační stránce k editaci zdroje můžete nový odstavec vytvořit vložením nového řádku na zvolené místo. Musíte však oba odstavce oddělit ještě jedním řádkem navíc. Nadpisy se vkládají výběrem Úrovně v rozbalovací nabídce Nadpis  v horní liště editační stránky. Odkazy na další články pak vkládejte pomocí tlačítka . Ztučnit nebo naklonit text můžete pomocí tlačítek  a . Obrázky z Commons pak přidáte tlačítkem .
+
+Podrobnější nápovědu naleznete na stránce Nápověda:Formátování textu.
+Zveřejnění změn
+Jakmile dokončíte svoje úpravy, klepněte na tlačítko Zveřejnit změny vpravo v horní liště editační stránky. Otevře se okénko k popsání provedených změn. Do textového políčka v tomto okénku popište změny, které jste na stránce provedl(a), případně zaškrtněte některé z doplňujících voleb pod textovým políčkem a klepněte na tlačítko Zveřejnit změny nad textovým políčkem.
+Pokud pracujete na editační stránce k editaci zdroje, tlačítko k přímému uložení stránky Zveřejnit změny a textové políčko k popsání změn je v zápatí stránky pod editačním textovým polem. Před samotným uložením však ještě zkontrolujte výsledek svojí editace pomocí tlačítek Ukázat náhled a Ukázat změny. Pomocí prvního tlačítka si prohlédnete, zda vaše editace graficky i typograficky odpovídá vaší představě. Pomocí toho druhého se například ujistíte, zda jste omylem neupravil(a) i část stránky, kterou jste upravit nechtěl(a).
+
+Podrobnější nápovědu naleznete na stránce Wikipedie:Shrnutí editace.
+Psaní článku
+Články na české Wikipedii mají určitou domluvenou strukturu. Vždy začínají úvodní sekcí, ve které je tučně zvýrazněn předmět článku a v několika větách je stručně popsán. Následují jednotlivé kapitoly s nadpisy a odstavci. Závěr pak může být tvořen poznámkami, referencemi, literárními zdroji, souvisejícími články, externími odkazy a kategoriemi (v tomto pořadí).
+
+Podrobnější nápovědu naleznete na stránce Wikipedie:Vzhled a styl.
+V článcích se pak používá encyklopedický styl a je kladen důraz na věcnost, objektivnost, popisnost, spisovnou češtinu a srozumitelnost laikům. Vyvarujte se tedy prosím vyhýbavým slovům, zavádějícím výrazům, vkládejte odkazy na další články, hledejte české ekvivalenty a méně odborné výrazy. Také neoslovujte čtenáře, nepoužívejte přítomný čas pro minulé děje (ne Karel IV. začíná vládnout), případné názory, hodnocení nebo interpretace zase předkládejte neutrálně i věrohodně (např. Vědec XYZ ve své knize ABC uvádí, že…) a místo subjektivních výrazů používejte obecně platné výrazy (např. místo u nás pište v Česku nebo místo v dnešní době pište v roce 2019). U krátkých citací cizího díla vždy uvádějte autora a odkaz, odkud citujete. Delší pasáže nebo celé texty však bez svolení autora rozhodně nevkládejte, zvlášť pokud k nim nemáte příslušná práva.
+
+Podrobnější nápovědu naleznete na stránce Nápověda:Jak vytvořit článek.
+Související stránky
+Podrobnější nápovědu naleznete na stránce Nápověda:Editace stránky podrobně.
+Nápověda:Uživatelské prostředí
+Nápověda:Pískoviště
+Wikipedie:Časté chyby
+≺ Předchozí: Uživatelské prostředí
+Následující: Pískoviště ≻
+
+
+
+
+
+
+Citováno z „https://cs.wikipedia.org/w/index.php?title=Nápověda:Jak_editovat_stránku&oldid=17086785“
+Kategorie: Nápověda:ZákladníNápověda:EditaceWikipedie:Formátování textu
+
+
+
+
+Navigační menu
+
+
+Osobní nástroje
+
+Nejste přihlášen(a)DiskusePříspěvkyVytvoření účtuPřihlášení 
+
+
+
+Jmenné prostory
+
+NápovědaDiskuse 
+
+
+
+
+Varianty
+
+
+
+
+
+
+
+Zobrazení
+
+ČístZobrazit zdrojZobrazit historii 
+
+
+
+Další
+
+
+
+
+
+Hledání
+
+
+
+ 
+
+
+
+
+
+
+
+Navigace
+
+
+Hlavní stranaNápovědaPotřebuji pomocNejlepší článkyNáhodný článekPoslední změnyKomunitní portálPod lípouPodpořte Wikipedii 
+
+
+
+Nástroje
+
+
+Odkazuje semSouvisející změnyNačíst souborSpeciální stránkyTrvalý odkazInformace o stráncePoložka Wikidat 
+
+
+
+Tisk/export
+
+
+Vytvořit knihuStáhnout jako PDFVerze k tisku 
+
+
+
+Na jiných projektech
+
+
+Wikimedia CommonsMediaWikiMeta-WikiWikidruhyWikizdrojeWikiverzitaWikislovník 
+
+
+
+V jiných jazycích
+
+
+AlemannischAragonésÆngliscالعربيةঅসমীয়াБашҡортсаBoarischŽemaitėškaBikol CentralБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBahasa BanjarBamanankanবাংলাBrezhonegBosanskiCatalàНохчийнЧӑвашлаCymraegDanskDeutschDolnoserbskiދިވެހިބަސްEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisFurlanGaeilgeGalegoગુજરાતીGaelgעבריתहिन्दीHrvatskiHornjoserbsceKreyòl ayisyenMagyarՀայերենInterlinguaBahasa IndonesiaIlokanoГӀалгӀайItaliano日本語La .lojban.Basa JawaTaqbaylitҚазақшаភាសាខ្មែរಕನ್ನಡ한국어Къарачай-малкъарRipoarischLatinaLingálaລາວLietuviųLatgaļuLatviešuMalagasyОлык марийМакедонскиമലയാളംМонголBahasa MelayuMaltiမြန်မာဘာသာPlattdüütschNedersaksiesनेपाल भाषाNederlandsNorsk nynorskNorskChi-Chewaଓଡ଼ିଆИронKapampanganPapiamentuPolskiPiemontèisپښتوPortuguêsRomânăРусскийРусиньскыйScotsسنڌيSrpskohrvatski / српскохрватскиසිංහලSimple EnglishSlovenčinaSlovenščinaSoomaaligaShqipСрпски / srpskiSeelterskBasa SundaSvenskaதமிழ்తెలుగుТоҷикӣไทยTürkmençeTok PisinTürkçeТатарча/tatarçaУдмуртУкраїнськаاردوOʻzbekcha/ўзбекчаVènetoTiếng ViệtWalon吴语ייִדישYorùbá中文文言Bân-lâm-gú粵語 
+Upravit odkazy 
+
+
+
+
+
+ Stránka byla naposledy editována 28. 3. 2019 v 19:06.
+Text je dostupný pod licencí Creative Commons Uveďte autora – Zachovejte licenci, případně za dalších podmínek. Podrobnosti naleznete na stránce Podmínky užití.
+
+
+Ochrana osobních údajů
+O Wikipedii
+Vyloučení odpovědnosti
+Vývojáři
+Prohlášení o cookies
+Mobilní verze
+
+
+
+ 
+
+ 
+
+
+
+
+
+

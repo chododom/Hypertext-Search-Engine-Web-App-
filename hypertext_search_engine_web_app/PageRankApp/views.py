@@ -9,6 +9,7 @@ def redirect_view():
     response = redirect('/pagerank/')
     return response
 
+
 @csrf_exempt
 def search(request):
 
@@ -24,10 +25,34 @@ def search(request):
             main.SEARCH_WORD = expr
         return main.SEARCH_WORD
 
+    def get_homepage(page):
+        if page != '':
+            main.HOMEPAGE = page
+        return main.HOMEPAGE
+
     def get_alpha(a):
         if a != '':
-            main.ALPHA = a
+            print(a)
+            main.ALPHA = float(a)
         return main.ALPHA
+
+    def get_thread_cnt(a):
+        if a != '':
+            print(a)
+            main.THREAD_CNT = int(a)
+        return main.THREAD_CNT
+
+    def get_page_cnt(a):
+        if a != '':
+            print(a)
+            main.PAGE_CNT = int(a)
+        return main.PAGE_CNT
+
+    def get_iter_cnt(a):
+        if a != '':
+            print(a)
+            main.ITERATION_CNT = int(a)
+        return main.ITERATION_CNT
 
     if request.method == 'POST':
         searching_form = SearchForm(request.POST)
@@ -39,6 +64,11 @@ def search(request):
     searching = request.POST.get('searching', '')
     pagerank_method = get_method(request.POST.get('pagerank_method', ''))
     alpha = get_alpha(request.POST.get('alpha', ''))
+    thread_cnt = get_thread_cnt(request.POST.get('thread_cnt', ''))
+    page_cnt = get_page_cnt(request.POST.get('page_cnt', ''))
+    iter_cnt = get_iter_cnt(request.POST.get('iter_cnt', ''))
+    homepage = get_homepage(request.POST.get('homepage', ''))
+
     pages = []
 
     if crawling == '1':
@@ -64,12 +94,15 @@ def search(request):
 
         main.SEARCH = tmpS
 
-    print(pages)
     return render(request, "search.html", {'pages': pages,
+                                           'homepage': homepage,
                                            'alpha': alpha,
                                            'searching_form': searching_form,
                                            'searched_exp': searched_exp,
-                                           'pagerank_method': pagerank_method})
+                                           'pagerank_method': pagerank_method,
+                                           'thread_cnt': thread_cnt,
+                                           'page_cnt': page_cnt,
+                                           'iter_cnt': iter_cnt})
 
 
 def index(request):
