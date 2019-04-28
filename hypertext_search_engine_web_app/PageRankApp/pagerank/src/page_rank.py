@@ -82,3 +82,13 @@ class PageRank:
         res.sort(key=lambda x: x.rank, reverse=True)
         for pg in res:
             print(pg)
+
+    def assign_ranks(res):
+        for i in range(len(res)):
+            with open(PARENT_DIR + "page_ranks/ranks", mode="r", encoding="utf-8") as fp:
+                line = fp.readline()
+                while line:
+                    if line.split(" #PAGERANK# ")[0] == res[i].page_url:
+                        res[i].page_rank = line.split(" #PAGERANK# ")[1].strip()
+                        break
+                    line = fp.readline()

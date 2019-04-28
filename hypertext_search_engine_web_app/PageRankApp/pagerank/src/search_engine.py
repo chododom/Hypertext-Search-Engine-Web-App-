@@ -8,6 +8,17 @@ from whoosh.fields import Schema, TEXT, ID
 from PageRankApp.pagerank.src.config import *
 
 
+class Result:
+    page_url = ""
+    page_rank = 0
+    content_rank = 0
+    combined_rank = 0
+    
+    def __init__(self, url, rank):
+        self.page_url = url
+        self.content_rank = rank
+
+
 def createSearchableData(root):
     schema = Schema(title=TEXT(stored=True), id=ID(stored=True), textcontent=TEXT(stored=True))
     if not os.path.exists(PARENT_DIR + "indexdir"):
@@ -30,12 +41,17 @@ def createSearchableData(root):
 
 
 def search(query_str, topN):
+    ret = []
     ix = open_dir(PARENT_DIR + "indexdir")
-    with ix.searcher(weighting=scoring.Frequency) as searcher:
+    with ix.searcher() as searcher:
         query = QueryParser("textcontent", ix.schema).parse(query_str)
         results = searcher.search(query, limit=None)
         if results.is_empty():
             print("No results for query '"+query_str+"'.")
         else:
             for i in range(topN if len(results) > topN else len(results)):
-                print(results[i]['title'], str(results[i].score), results[i]['id'])
+                # print(results[i]['title'], str(results[i].score), results[i]['id'])
+                with open(PARENT_DIR + "page_contents/" + str(results[i]['title']), mode="r", encoding="utf-8") as fp:
+                    url = fp.readline()
+                ret.append(Result(url.strip(), results[i].score))
+    return ret
