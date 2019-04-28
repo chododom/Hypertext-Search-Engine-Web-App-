@@ -33,6 +33,7 @@ def crawl():
             Spider.crawl_page(url)
             time.sleep(0.05)
 
+
 def crawl_them_all():
     if CRAWL:
         try:
@@ -83,9 +84,9 @@ if INIT_SEARCH_INDEX:
 if SEARCH:
     final_res = search(SEARCH_WORD, RESULT_CNT)
 
-for i in range(len(final_res)):
-    PageRank.assign_ranks(final_res)
-    print(final_res[i].page_url + "  ---  " + str(final_res[i].page_rank) + "  ---  " + str(final_res[i].content_rank))
+    for i in range(len(final_res)):
+        PageRank.assign_ranks(final_res)
+        print(final_res[i].page_url + "  ---  " + str(final_res[i].page_rank) + "  ---  " + str(final_res[i].content_rank))
 
 
 
