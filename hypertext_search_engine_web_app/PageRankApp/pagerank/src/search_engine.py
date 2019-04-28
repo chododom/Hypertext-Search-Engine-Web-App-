@@ -20,6 +20,9 @@ class Result:
         self.page_url = url
         self.content_rank = rank
 
+    def __str__(self):
+        return str(self.combined_rank) + " - " + self.page_url
+
 
 def createSearchableData(root):
     schema = Schema(title=TEXT(stored=True), id=ID(stored=True), textcontent=TEXT(stored=True))

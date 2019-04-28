@@ -9,32 +9,31 @@ from PageRankApp.pagerank.src.config import *
 from PageRankApp.pagerank.src.spider import Spider
 from PageRankApp.pagerank.src.page_rank import *
 
-DOMAIN_NAME = get_domain_name(HOMEPAGE)
-pages = {}
-threads = set()
-queue = collections.deque()
-queue.appendleft(HOMEPAGE)
-crawled = set()
-Spider(HOMEPAGE, DOMAIN_NAME, queue, crawled, pages)
-
-
-def create_spiders():
-    for x in range(THREAD_CNT):
-        thread = threading.Thread(target=crawl)
-        threads.add(thread)
-        thread.daemon = True
-        thread.start()
-
-
-def crawl():
-    while len(crawled) < PAGE_CNT:
-        if len(queue) != 0:
-            url = queue.pop()
-            Spider.crawl_page(url)
-            time.sleep(0.05)
-
 
 def crawl_them_all():
+    DOMAIN_NAME = get_domain_name(HOMEPAGE)
+    pages = {}
+    threads = set()
+    queue = collections.deque()
+    queue.appendleft(HOMEPAGE)
+    crawled = set()
+
+    Spider(HOMEPAGE, DOMAIN_NAME, queue, crawled, pages)
+
+    def create_spiders():
+        for x in range(THREAD_CNT):
+            thread = threading.Thread(target=crawl)
+            threads.add(thread)
+            thread.daemon = True
+            thread.start()
+
+    def crawl():
+        while len(crawled) < PAGE_CNT:
+            if len(queue) != 0:
+                url = queue.pop()
+                Spider.crawl_page(url)
+                time.sleep(0.05)
+
     if CRAWL:
         try:
             shutil.rmtree(PARENT_DIR + "page_contents")
@@ -44,8 +43,9 @@ def crawl_them_all():
         create_spiders()
         for thread in threads:
             thread.join()
+
     if CALC_PR:
-        PR = PageRank(pages, ALPHA, ITERATION_CNT, False)
+        PR = PageRank(pages, float(ALPHA), int(ITERATION_CNT), False)
         if METHOD == "matrix":
             print("Result - matrix method")
             pi_matrix = PR.do_page_rank_matrix()
@@ -66,6 +66,7 @@ def crawl_them_all():
     if INIT_SEARCH_INDEX:
         createSearchableData(PARENT_DIR + "page_contents")
         print("Created searchable data schema")
+
 
 '''
 pages = {
@@ -96,5 +97,4 @@ def search_them_all():
             for i in range(len(final_res)):
                 print(final_res[i].page_url + " -> " + str(final_res[i].combined_rank) + " -PR- " + str(
                     final_res[i].normalized_page_rank) + " -CR- " + str(final_res[i].content_rank))
-
     return final_res
