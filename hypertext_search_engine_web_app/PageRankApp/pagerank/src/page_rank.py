@@ -84,11 +84,31 @@ class PageRank:
             print(pg)
 
     def assign_ranks(res):
+        maxPR = - math.inf
+        minPR = math.inf
+        maxCR = - math.inf
+        minCR = math.inf
         for i in range(len(res)):
             with open(PARENT_DIR + "page_ranks/ranks", mode="r", encoding="utf-8") as fp:
                 line = fp.readline()
                 while line:
                     if line.split(" #PAGERANK# ")[0] == res[i].page_url:
-                        res[i].page_rank = line.split(" #PAGERANK# ")[1].strip()
+                        res[i].page_rank = float(line.split(" #PAGERANK# ")[1].strip())
+                        if res[i].page_rank > maxPR:
+                            maxPR = res[i].page_rank
+                        if res[i].page_rank < minPR:
+                            minPR = res[i].page_rank
                         break
                     line = fp.readline()
+
+        new_max = 10
+        new_min = 1
+        slopePR = (new_max - new_min) / (maxPR - minPR)
+        for j in range(len(res)):
+            # normalize ranks to range [new_min, new_max]
+            res[j].normalized_page_rank = (slopePR * (res[j].page_rank - minPR)) + new_min
+            res[j].normalized_page_rank = round(res[j].normalized_page_rank, 2)
+
+            # combine page rank and content rank
+            res[j].combined_rank = PR_WEIGHT * res[j].normalized_page_rank + CR_WEIGHT * res[j].content_rank
+

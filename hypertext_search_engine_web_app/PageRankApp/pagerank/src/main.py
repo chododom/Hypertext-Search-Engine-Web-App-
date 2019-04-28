@@ -84,9 +84,17 @@ if INIT_SEARCH_INDEX:
 if SEARCH:
     final_res = search(SEARCH_WORD, RESULT_CNT)
 
-    for i in range(len(final_res)):
-        PageRank.assign_ranks(final_res)
-        print(final_res[i].page_url + "  ---  " + str(final_res[i].page_rank) + "  ---  " + str(final_res[i].content_rank))
+
+    def get_key(result):
+        return result.combined_rank
 
 
+    if SEARCH:
+        final_res = search(SEARCH_WORD, RESULT_CNT)
 
+        for i in range(len(final_res)):
+            PageRank.assign_ranks(final_res)
+        final_res = sorted(final_res, key=get_key, reverse=True)
+        for i in range(len(final_res)):
+            print(final_res[i].page_url + " -> " + str(final_res[i].combined_rank) + " -PR- " + str(
+                final_res[i].normalized_page_rank) + " -CR- " + str(final_res[i].content_rank))

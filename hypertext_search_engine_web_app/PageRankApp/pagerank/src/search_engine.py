@@ -11,9 +11,11 @@ from PageRankApp.pagerank.src.config import *
 class Result:
     page_url = ""
     page_rank = 0
+    normalized_page_rank = 0
     content_rank = 0
+    normalized_content_rank = 0
     combined_rank = 0
-    
+
     def __init__(self, url, rank):
         self.page_url = url
         self.content_rank = rank
@@ -47,7 +49,7 @@ def search(query_str, topN):
         query = QueryParser("textcontent", ix.schema).parse(query_str)
         results = searcher.search(query, limit=None)
         if results.is_empty():
-            print("No results for query '"+query_str+"'.")
+            print("No results for query '" + query_str + "'.")
         else:
             for i in range(topN if len(results) > topN else len(results)):
                 # print(results[i]['title'], str(results[i].score), results[i]['id'])

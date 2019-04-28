@@ -1,5 +1,4 @@
 from scipy import sparse
-import numpy as np
 
 
 class MatrixFactory:
@@ -9,6 +8,7 @@ class MatrixFactory:
     def __init__(self, pages):
         self.pages = pages
         self.length = len(pages)
+        self.cut_off_domain()
 
     # return basic sparse matrix H
     def get_matrix_H(self):
@@ -95,3 +95,18 @@ class MatrixFactory:
                     data.append(h_matrix[i][j])
 
         return sparse.bsr_matrix((data, (row_indexes, col_indexes)), shape=(self.length, self.length), dtype='double')
+
+    def cut_off_domain(self):
+        urls = {page_url for page_url in self.pages}
+
+        for purl in self.pages:
+            page = self.pages[purl]
+            new_outlinks = set()
+            if not page.outlinks:
+                continue
+            else:
+                # check if all outlinks are within selected domain, those that are not get cut off
+                for link in page.outlinks:
+                    if link in urls:
+                        new_outlinks.add(link)
+            page.outlinks = new_outlinks
