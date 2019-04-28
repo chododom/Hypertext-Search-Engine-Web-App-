@@ -1,3 +1,5 @@
+import math
+
 from PageRankApp.pagerank.src.matrix_factory import MatrixFactory
 from PageRankApp.pagerank.src.config import *
 
@@ -86,8 +88,6 @@ class PageRank:
     def assign_ranks(res):
         maxPR = - math.inf
         minPR = math.inf
-        maxCR = - math.inf
-        minCR = math.inf
         for i in range(len(res)):
             with open(PARENT_DIR + "page_ranks/ranks", mode="r", encoding="utf-8") as fp:
                 line = fp.readline()
@@ -103,12 +103,19 @@ class PageRank:
 
         new_max = 10
         new_min = 1
-        slopePR = (new_max - new_min) / (maxPR - minPR)
+        normalize = True
+        if maxPR - minPR == 0:
+            normalize = False
+        else:
+            slopePR = (new_max - new_min) / (maxPR - minPR)
         for j in range(len(res)):
             # normalize ranks to range [new_min, new_max]
-            res[j].normalized_page_rank = (slopePR * (res[j].page_rank - minPR)) + new_min
-            res[j].normalized_page_rank = round(res[j].normalized_page_rank, 2)
+            if normalize:
+                res[j].normalized_page_rank = (slopePR * (res[j].page_rank - minPR)) + new_min
+                res[j].normalized_page_rank = round(res[j].normalized_page_rank, 2)
+                # combine page rank and content rank
+                res[j].combined_rank = PR_WEIGHT * res[j].normalized_page_rank + CR_WEIGHT * res[j].content_rank
 
-            # combine page rank and content rank
-            res[j].combined_rank = PR_WEIGHT * res[j].normalized_page_rank + CR_WEIGHT * res[j].content_rank
+            else:
+                res[j].combined_rank = PR_WEIGHT * res[j].page_rank + CR_WEIGHT * res[j].content_rank
 

@@ -32,7 +32,8 @@ class MatrixFactory:
                         col_indexes.append(self.pages[link].id)
                         data.append(1 / len(pg.outlinks))
 
-        return sparse.bsr_matrix((data, (row_indexes, col_indexes)), shape=(self.length, self.length), dtype='double')
+        mat = sparse.bsr_matrix((data, (row_indexes, col_indexes)), shape=(self.length, self.length), dtype='double')
+        return mat
 
     # return row vector of 1/n (n - number of pages)
     def get_default_page_rank_vector(self):

@@ -1,0 +1,234 @@
+https://anketa.cvut.cz/doc/role_ucitelu_a_kos.html
+
+
+
+
+Role učitelů v aplikaci Anketa ČVUT a souvislosti s obsahem
+databáze KOS
+
+Autor: Michal Valenta valenta@fit.cvut.cz
+Poslední úprava: 13.4. 2013
+
+Prolog
+Cíle tohoto dokumentu jsou: 
+
+Vysvětlit proces generování rolí
+učitelů a tím dosáhnout maximální relevance s co nejmenším úsilím a
+nutností ručních úprav.
+Shrnout pozadavky na správný obsah
+KOSu vzhledem k bezproblémové funkci aplikace Anketa ČVUT
+vysvětlit datovou strukturu ankety vzhledem k obsahu databáze KOS
+(celý dokument).
+
+Role v aplikaci Anketa ČVUT
+Anketa zná pevnou sadu rolí učitelů (přebráno z KOSu):
+
+P, p  - přednášející (1.
+a 2.) 
+ C, c  - cvičící / ved.
+semináře / prosemináře (1. a 2.)
+ L, l  - učitel v lab.
+/ poč. místnosti (1. a 2.)
+ Z  - zkoušející 
+ z  - učitel udělující
+zápočet 
+ K  - učitel udělující
+klasifikovaný
+zápočet
+
+
+Proces generování rolí v anketě a
+možnosti jeho ovlivnění
+
+Role v anketě se generují z KOSu jednou - při inicializaci ankety
+pro další běh.
+Role p, c, L, l se automaticky vygenerují pouze pro fakulty,
+které v KOSu používají rozvrh.
+Je možné (ručně) doplňovat role k předmětům a učitele v těchto
+rolích (viz další text). Toto doplnění může udělat každý fakultní administrátor, pomocí WWW rozhraní pro adnimistrátory.
+Není možné ručně v anketě odebírat učitele z rolí, pokud jim byla role odvozena automaticky. 
+
+
+Shledá-li fakultní administrátor, že množství rolí, které je třeba
+ručně doplnit je příliš velké, je možné zvolit následující postup:
+
+Fakultní administrátor zajistí doplnění chybějící učitelů v
+příslušných rolích  přímo v KOSu (viz dále).
+Požádá hlavního administrátora o  obnovu rolí učitelů z KOSu.
+
+Souhrn požadavků na (správný) obsah
+KOSu
+
+Číselník učitelů - tedy těch kdo opravdu něco učí (zaměstnanci,
+externisté, doktorandi...),
+číselník předmětů - zejména informace o ukončení předmětu (Z, ZK,
+KZ, ...) a rozsah (X + Y),
+Informace o tom, co který učitel opravdu učí - formulář iKOS - Formulář 85102 - Vypisování a klasifikace předmětů, záložka "Vyučující předmětu"
+studenti musí být zapsaní na předmět,
+učitelé musí pravidelně doplňovat informace o udělených zápočtech
+a zkouškách (pokud má být anketa provozována v režimu "Otevřeno pro
+ukončené",
+správné informace o paralekách (rozvrhové lístky) - "starý KOS" - (v iKOS formuláře dosud nejsou implementovány) formuláře
+52705, 56302 umožní v anketě dobře určit a hodnoti také tyto
+role - 2.
+přednášející, 2. cvičící, učitel v laboratoři, 2. učitel v
+laboratoři  (p, c, L, l).
+
+
+
+Fakulty s rozvrhem a bez rozvrhu v KOSu
+
+Fakulty se dělí do dvou skupin - podle toho zda používají
+nebo nepoužívají KOS pro tvorbu rozvrhu. 
+
+Zadání ankety na úrovni ČVUT bylo takové, že musí fungovat i pro fakulty,
+které rozvrh nepoužívají. To platí. 
+Bez požití rozvrhových lístků (v KOSu) však není možné v anketě
+(atomaticky) odvodit tyto role: c, p,
+L, l
+
+Datová situace na straně Ankety
+Data v databázi Ankety 
+představují vždy jen jeden semestr. Pak se celé uživatelské
+schéma (anketa) zálohuje, databáze se (téměř) vyprázdní (s
+výjimkou  anketních otázek jednotlivých fakult a masky pro
+hromadné vyloučení předmětů) a probíhá nový import dat z KOSu.
+
+
+importovaná data se ukládají ve formě "materializovaných pohledů"
+(nebo též "snímek - snapshot"), které z povahy věci nejsou
+zapisovatelné,
+
+Jedná se o tyto zdroje (materializované pohledy)
+(SUCITEL, SSTUDENT, SPREDMET, SPARALELKA, STYPVYUC, SSTUD_PRED)
+
+Informace, které se přebírají z KOSu lze rozdělit na statické
+(číselníkové - SUCITEL, SSTUDENT, SPREDMET, SPARALELKA, STYPVYUC) - stahují se jednou za semestr -  a dynamické (SSTUD_PRED)  
+- obnovují se z KOSu pravidelně (v současné době jednou za den; zde je informace o ukončení předmětu, známce, získání zápočtu).
+
+Dále má Anketa svoje vlastní data - ta lze rozdělit do dvou skupin:
+
+Znění ankety (anket) pro jednotlivé fakulty. Pouze tato data
+přetrvávají v databázi více semestrů.
+
+Vyplněné anketní lístky.
+
+Následující odstavce popisují jednotlivé datové zdroje. U nadpisu je
+uveden i název (databázového) objektu, ve kterém jsou data uložena.
+Platí tato konvence - S
+uvozuje snímek (snapshot) z
+KOSu, T uvozuje vlastní tabulku aplikace Anketa.
+"Číselníkové" informace přebírané do ankety z KOSu
+
+Tyto informace se do ankety přebírají typicky 1x za semestr, při
+vytváření nového běhu anekty, proto označení "číselníkové". 
+Číselník semestrů - SSEMESTR 
+Hlavně jde o kód semestru a
+jeho spojení s časovým údajem.  Kód semestru se používá v dalších z KOSu
+získávaných datech (TYPVYUC, PREDMET, STUD_PRED, ...) viz dále. 
+
+Číselník učitelů - SUCITEL
+
+Označení učitel je zde použito ve
+smyslu "někdo, kdo učí nějaký předmět". Anketa nerozlišuje mezi
+interními a externími učiteli a doktorandy (kteří také učí). Sjednocení
+těchto osob je zřejmě realizováno na úrovni pohledu KOSu, který je
+použit pro import dat do ankety. Jedná
+se o pohled ANUCITEL_VW. 
+
+V rámci KOSu má učitel jednoznačný klíč - UCITEL_ID.
+.
+
+Číselník studentů - SSTUDENT
+Zdrojem těchto dat v KOSu je pohled AN_STUDENT_VW.
+Studenti mají unikátní identifikátor STUD_ID a také 
+USER_NAME. Tento atribut
+je použit pro vyjádření vazby na předměty, které student studuje. 
+
+
+Číselník předmětů - SPREDMET
+Predmety, které se v daném semestru vyučují. Zdrojem dat v KOSu je
+pohled AN_PREDMET_VW. Pro správné
+odvození možných rolí učitelů v anketě (přednášející, cvičící,
+udělující zápočet, udělující klasifikovaný zápočet, zkoušející) je
+nezvytné, aby byly vyplněny atributy ZPUSZAK a ROZSAH. Tato
+data přispívají k vytvoření obsahu tabulek TPREDM a TPREDM_ROLE.
+
+Číselník paralelek - SPARALELKA
+Tyto data se přebírají z rozvrhových lístků, jejich zdrojem v KOSu jsou
+pohledy AN_ROZPAR_VW a AN_PREDMET_VW.  Je tedy k dispozici pouze pro fakulty používající rozvrh.
+Informace získané z tohoto zdroje se v anketě použíjí ke dvěma účelům:
+
+odvození rolí 2. přednášející, 2. cvičící a učitel v laboratoři
+pro jednotlivé předměty,
+přímému určení  konkrétního učitele na anketním lístku z
+konkrétního předmětu pro konkrétní studenta (užitečnost tohoto přesného
+odvození jsem poněkud zpochybnil výše).
+
+Tato data přispívají k vytvoření obsahu tabulky TPREDM_ROLE.
+
+K obsahu těchto dat se zcela jistě váží formuláře "Zápis studenta do rozvrhu" 52705 a "Editace rovrhových paralelek" 56302
+z aplikace Komponenta Studium (strará verze v iKOS dosud nejsou).
+
+Číselník rolí při výuce předmětu - STYPVYUC
+Zdrojem této informace je přímo tabulka TTYPVYUC v databázi KOS. Tato
+zdrojova tabulka má přímou souvislost s formulářem Vyučující předmětů pro semestr 
+z apliace Komponenta Studium. Odsud se zjišťují konkrétní role v anketě
+pro jednotlivé předměty (1. přednášející, 1. cvičící, Zkoušející). 
+Nesystematické výjimky ve statických datech přebíraných z KOSu
+Informace v KOSech fakult nejsou vždy dostačující. Administrátoři
+fakult nemají vždy dostatečná práva ani autoritu dosáhnout souladu s
+realitou. Pro takové případ byly učiněny v implementaci Ankety 2
+výjimky. Potenciálně jsou samozřejmě zdrojem problémů, nekonzistencí a
+špatného fungování. 
+Role konkrétních vyučujících v předmětech
+se dynamicky odvozují na základě informací z STYPVYUC, SSTUD_PRED a
+SPARALELKA. Relevantní formulář 51115 byl v praxi pro administrátory
+aplikací často nedostupný. Byla proto doplněna lokální tabulka
+TTYPVYUC_LOCAL, která slouží jako dodatečný zdroj informace kdo a co v
+jaké roli učí.
+Lokální doplňující číselník učitelů
+slouží v případech, kdy z nějakých důvodů (skutečný) učitel předmětu
+není vubec v KOSu a studenti  (celkem pohcopitelně) vyžadují
+možnost jej hodnotit.
+Dynamické informace přebírané z KOSu - SSTUD_PRED
+
+Tyto informace se pravidelně (aktuálně 1x za den) obnovují. Pro správný
+běh ankety (zjeména je-li tato otevřena ve stavu "otevřeno pro ukončené") je nutné, aby učitelé (referenti) včas
+zadávali do KOSu informace o udělených zápočtech a zkouškách. 
+
+Zdrojem těchto informací na straně KOSu je pohled AN_ZPRED_VW.
+
+Vlastní data aplikace ANKETA
+Data o anketách 
+
+
+TANKETA
+TFAKULTA
+TODDIL
+TOTAZKA
+TODPOVED
+TMIN_ZAPSANYCH
+TVYLOUCENE
+
+
+Data o vyplněných anketních lístcích
+
+THODNOCENI
+THODNOCENÍ_CISLO
+THODNOCENI_TEXT
+TVYPLNIL
+
+Derivované a další pomocné
+
+TPREDM
+TPREDM_ROLE
+TTYPVYUC_LOCAL - viz "Výjimky..." výše
+
+TUCITEL_LOCAL - viz "Výjimky..." výše
+....
+
+
+
+
+

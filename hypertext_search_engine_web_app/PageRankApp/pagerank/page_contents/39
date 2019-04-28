@@ -1,0 +1,159 @@
+https://fit.cvut.cz/pr/tiskove-zpravy_2019/superpocitac
+
+
+
+
+
+
+
+česky
+english
+
+
+
+České vysoké učení technické v Praze
+
+
+
+Fakulta informačních technologií
+
+
+
+
+
+
+Hledání
+
+Hledání: 
+
+
+
+
+
+
+
+
+
+
+
+
+Fakulta
+Aktuálně
+Zájemci o studium
+Student
+Zaměstnanec
+Média
+
+
+
+
+
+Tiskové zprávy
+Psalo se o nás
+Grafické podklady
+Mediatéka
+Časopis
+PR oddělení
+Propagační předměty
+
+
+
+
+
+
+
+
+
+ 
+ › ČVUT » FIT  » Média » Tiskové zprávy » Tiskové zprávy za 2019 » Nejvýkonnější superpočítač v ČR Novinky    News
+
+
+
+
+Tiskové zprávy za 2019Nejvýkonnější superpočítač v ČR
+Kurz Introduction to Computer Science
+Pepper na promocích
+Laboratoř otevřených dat
+Den otevřených dveří 24. 1. 2019
+
+Archiv tiskových zpráv
+Kontakt
+
+
+
+
+
+Praha má nejvýkonnější superpočítač pro výzkum umělé inteligence v ČR. Zařízení v hodnotě 41,6 milionu korun je instalováno na ČVUT v Praze 
+
+
+Praha 16. 4. 2019Fakulta elektrotechnická a Fakulta informačních technologií ČVUT v Praze spojily své síly a založily Výzkumné centrum informatiky (Research Center for Informatics – RCI). V rámci projektu byl vybudován nejvýkonnější počítačový klastr pro výzkum umělé inteligence v ČR v hodnotě 41,6 milionu korun. Toto jedinečné zařízení, které se svým výkonem řadí mezi superpočítače, se nachází v podzemí historické budovy Fakulty elektrotechnické ČVUT na Karlově náměstí, což s sebou přináší nelehké výzvy.
+
+Centrum excelentního výzkumu v informatice RCI je špičkou české vědy v oblasti počítačových věd a umělé inteligence. Cílem centra je nadále rozvíjet konkurenceschopnou kvalitu výzkumu v mezinárodním měřítku, posílit spolupráci mezi základním a aplikovaným výzkumem, zvát na univerzitní půdu kvalifikované vědce ze zahraničí a propojovat zkušené vědce s mladými studenty. Provoz RCI je financován z Operačního programu Výzkum, vývoj a vzdělávání v rámci výzvy Excelentní výzkum s celkovým rozpočtem 580 milionů korun. Díky dotaci, jejímž poskytovatelem je MŠMT, bylo možné vybudovat počítačový klastr pro výzkum v oblasti umělé inteligence, který je svým výkonem v tomto ohledu nejlepším v celé ČR. Na rok 2022 centrum plánuje navazující rozšíření celého zařízení.
+Centrum řídí vedoucí Katedry počítačů Fakulty elektrotechnické ČVUT v Praze prof. Dr. Michal Pěchouček, MSc., který o projektu říká: „Dnes máme úžasnou příležitost pracovat na společném výzkumném cíli napříč celou univerzitou a posouvat vývoj informatiky na mezinárodní úroveň. Naši experti přinesou hodnotu ve výzkumu strojového učení, umělé inteligence, teoretické informatiky, bioinformatiky, vysoce výkonných výpočtů, velkých dat, kyberbezpečnosti nebo počítačové grafiky. S nově vybudovaným počítačovým klastrem se nám navíc otevírají možnosti, o kterých se nám dřív ani nezdálo.“
+I výzkumné týmy Fakulty informačních technologií vítají pořízení tohoto výkonného klastru, který na ČVUT již několik let chyběl. „Výzkum a experimentální vývoj vysoce výkonných a škálovatelných algoritmů probíhá třífázově. Nejdříve na osobních počítačích pro malé instance dat, pak je třeba ověřit korektnost a škálovatelnost algoritmů na dostatečně velkém klastru a následně vyhodnocení efektivnosti a škálovatelnosti na těch největších světových superpočítačích. Špičková architektura nově instalovaného RCI klastru umožní výzkumníkům efektivně zvládnout tuto druhou fázi vývoje vysoce škálovatelných algoritmů,” vysvětluje prof. Ing. Pavel Tvrdík, CSc., vedoucí Katedry počítačových systémů z Fakulty informačních technologií ČVUT v Praze.
+Technické parametry zařízení jsou obdivuhodné. „NVIDIA V100 Tensor Core GPU představuje nejvýkonnější akcelerátor pro tzv. high performance computing (vysoce výkonné výpočty) a umělou inteligenci. Celkový instalovaný výkon přes 6 PetaFLOPS dělá z instalace na ČVUT aktuálně nejvýkonnější superpočítač pro AI aplikace v České republice,“ uvedl za společnost NVIDIA Rob Evans, ředitel regionu EMEA v oblasti high performance computing a umělé inteligence.
+Uvést do provozu takto výkonný superpočítač nebyl jednoduchý úkol. „Celá instalace nám zabrala šest týdnů včetně dodávky všech hardwarových součástí, instalace klimatizace a rozběhnutí softwaru,“ vysvětluje Petr Plodík z firmy M Computers, která měla implementaci klastru na starost. „Vybudovat takový klastr v centru Prahy je poměrně unikátní. Museli jsme vytvořit nové rozvody pro napájení a chlazení a navíc jsme čelili limitům zdejší trafostanice,“ upřesňuje Plodík.
+Klastr je složen z 20 CPU výpočetních uzlů Gigabyte s procesory Intel Xeon Gold (celkem 480 procesorových jader), 12 NVIDIA GPU výpočetních uzlů Supermicro, jednoho uzlu Lenovo ThinkSystem SR950 s velkým počtem CPU jader a sdílenou pamětí (192 procesorových jader, 1,5 TB operační paměti), vysokorychlostní propojovací sítě Infiniband EDR (100Gb/s) od firmy Mellanox, rychlých NVMe SSD disků Western Digital a sdíleného škálovatelného diskového pole DELL EMC Isilon. Každý GPU uzel je osazený čtyřmi akcelerátory NVIDIA V100 Tensor Core GPU. Celkem je v klastru osazeno 48 akcelerátorů s celkovým počtem 245 760 CUDA jader, 30 720 Tensor Core a celkovým výpočetním výkonem přes 6 PetaFLOPS v operacích umělé inteligence.
+S tímto výkonem budou vědci z RCI moci v plné šíři provádět základní výzkum metod hlubokého učení, které je klíčové pro umělou inteligenci, např. pro aplikace v robotice, bioinformatice, vývoji aplikací pro počítačovou bezpečnost nebo řízení autonomních aut. A v těchto oblastech teď díky projektu RCI bude Česká republika moci konkurovat i zahraničním univerzitám a centrům excelence.
+Více informací o projektu najdete na http://www.rci.cvut.cz/.
+Fotografie jsou k dispozici na https://we.tl/t-a9Kbg0Kug7, zdroj: ČVUT v Praze.
+Kontakt
+Tiskovou zprávu vydal Rektorát Českého vysokého učení technického v Praze, odbor PR a marketingu. Kontaktní osobou je Mgr. Karolína Poliaková z Fakulty elektrotechnické.
+
+
+
+Mgr. Karolína Poliaková
+Fakulta elektrotechnická
+
+ karolina.poliakova@fel.cvut.cz
+ +420 734 111 409
+
+
+
+
+Osoba zodpovědná za obsah této stránky
+
+Bc. Veronika Dvořáková, veronika.dvorakova@fit.cvut.czPR referentka
+
+
+
+
+ 
+
+
+Důležité odkazy
+Mapa stránek
+Kontakty
+Partneři
+Časopis Buď FIT
+
+
+
+Facebook
+Twitter
+Instagram
+YouTube
+
+
+
+Připomínky a náměty
+webmaster@fit.cvut.cz
+
+
+
+ 
+
+ 
+
+
+
+      Poslední změna: 23.4.2019, 16:13      
+           
+                          
+       
+
+
+
+
+
+

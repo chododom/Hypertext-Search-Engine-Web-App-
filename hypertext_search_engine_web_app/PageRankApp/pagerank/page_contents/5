@@ -1,0 +1,121 @@
+https://anketa.cvut.cz
+
+
+
+
+
+
+Anketa ČVUT
+
+
+
+
+
+Vstup do aplikace
+Průběh a výsledky
+Další informace a otázky
+Novinky
+
+
+
+
+
+
+
+English version
+
+
+
+
+
+
+Pilotní testování nové Ankety ČVUT
+
+                14.2. 05-10 hodin došlo k výpadku služby, za problémy se omlouvám 
+                Účastní se fakulty FSv, FJFI, FA, FD, FBMI, MUVS a FIT. 
+                FD za zimní semestr 2018/2019 zkouší obě verze.
+ Jste-li studenti výše uvedených fakult, pokračujte zde. 
+
+Hodnocení výuky je důležitou zpětnou vazbou na všech vysokých školách (VŠ), proto Zákon o VŠ ukládá VŠ provádět pravidelné hodnocení činnosti VŠ a zveřejňovat jeho výsledky. Vnitřním smyslem ankety je získání zpětné vazby pro vyučující a vedení fakulty. Anketa je organizována a řízena z úrovně ČVUT pro všechny fakulty (
+podrobnější informace zde).
+
+
+Vstup do aplikace
+Případné chyby aplikace (pád aplikace, "zatuhnutí", nesrozumitelná navigace v anketním lístku) hlaste prostřednictvím aplikace Helpdesk.
+Chyby v datech ankety (nevidím předmět, který jsem studoval/a,vidím předmět, který jsem nestudoval/a, můj cvičící XY z předmětu PQ není v nabídce) hlaste svému fakultnímu administrátorovi ankety. Kontakt na něj najdete příímo v aplikaci v sekci informací o vaší fakultě 
+Rozhraní pro vyplnění anketních lístků.
+
+Průběh a výsledky ankety
+
+Harmonogram otevření a zavření anket je plně v režii jednotlivých fakult. Vedení ČVUT dosud nevydalo žádný metodický ani prováděcí pokyn, který by otevírání a zavírání ankety v rámci ČVUT sjednotil.
+
+
+Totéž platí o zveřejnění výsledků. Je potřeba je hledat na WWW stránkách jednotlivých fakult. Obvykle jsou k dispozici pouze akademické obci příslušné fakulty. Obvykle fakulty nechávají zveřejněné i výsledky anket z předchozích semestrů.
+
+
+Další informace, FAQ
+
+Role učitelů v jednotlivých předmětech (kdo co učil a za co ho lze hodnotit) a seznam předmětů, které jsou z ankety vyloučeny.
+Souhrn otevřených rolí pro zvolený předmět (stručnější než předchozí výpis, ale bez učitelů).
+Seznam anketních otázek.
+Aktuální stav vyplnění ankety (kolik anketních lístků (po předmětech) již bylo vyplněno.
+Jak a kdy se přebírají data z KOSu a z čeho se odvozují role učitelů v anketě
+
+Často kladené dotazy (FAQ)
+
+ Lze se vrátit k rozdělanému anketnímu lístku?
+ Anketní lístek mi v dané roli nabízí jiného vyučujícího než toho, který mě skutečně učil.
+ Můj vyučující není v anketním lístku předmětu XY v seznamu vyučujících v roli R. 
+ Na předmět jsme měli v jedné roli více vyučujících (například 3 přednášející). Chtěl bych je hodnotit všechny.
+Je anketa anonymní?
+Mohu anonymitu zrušit a některé komentáře podepsat?
+
+Lze se vrátit k rozdělanému
+anketnímu lístku?
+Pokud vyplním hodnocení předmětu a potvrdím ho, k hodnocení již nemám další přístup (nutné kvůli zachování anonymity). Předměty mohu hodnotit postupně, v prvé fázi otevření ankety mohu hodnotit pouze po složení zkoušky, ve druhé je podmínkou jen zápis předmětu. 
+Anketní lístek mi v dané roli nabízí jiného vyučujícího než toho, který mě skutečně učil.
+Možností je více (informaci nebylo možné na základě obsahu KOSu správně odvodit, byl(a) jste původně zapsán(a) do jiné paralelky a následně si ji změnila bez zpětného promítnutí této informace do KOSu, ...). V každém případě máte k dispozici možnost učitele změnit. Viz obrázek. Pokud v seznamu není, pak, prosím, následujte odpověď na
+otázku: Můj vyučující není v anketním lístku předmětu XY v seznamu vyučujících v roli R.
+Ukázka: změna vyučujícího
+
+Můj vyučující není v anketním lístku předmětu XY v seznamu vyučujících v roli R.
+ Pokud nenajdete svého vyučujícího v seznamu, obraťte se na fakultního administrátora vaší ankety, který zjistí příčinu a případně zjedná nápravu. Mail na fakultního administrátora naleznete například na seznamu rolí učitelů pro anketu Vaší fakulty.
+Na předmět jsme měli v jedné roli více vyučujících (například 3 přednášející). Chtěl bych je hodnotit všechny.
+ V současné verzi ankety není toto možné. Tato verze ankety podporuje role učitele tak, jak jsou v databázi KOS. Zde je například 1. a 2. přednášející, ale již ne další. Alternativní způsoby řešení jsou dva:
+
+Takový předmět může být fakultním administrátorem vyřazen z ankety.
+Vytvoří se samostatná anketa, kde se příslušný oddíl otázek do jednoho anketního lístku zkopíruje tolikrát, kolik učitelů má být v dané roli hodnoceno. Toto řešení je vhodné pouze v případě, kdy je takových předmětů více. Viz například anketa FJFI - praktika, kde je oddíl cvičící na každém anketním lístku 3x.
+
+Změna ankety tak, aby bylo možné hodnotit v jedné roli více než 2 učitele, vyžaduje celkem velký zásah do datového modelu. Prozatím nebylo učiněno rozhodnutí, že by měla být tato změna implementována. 
+Je anketa anonymní?
+Možná se divíte, že se do aplikace musíte hlásit svým uživatelským jménem, když anketa je prezentována jako anonymní. Vaše identita musí být ověřena, aby anketu nevyplnil někdo za Vás resp. aby jeden student nehodnotil předmět vícekrát. Tím by docházelo ke značnému zkreslení hodnocení. Do databáze se ukládá jen fakt, že student již vyplnil hodnocení daného předmětu. Ostatní data, tedy zejména jak student anketu vyplnil, jsou již anonymní. Abychom podpořili Vaši důvěru, několik studentů i doktorandů mělo možnost se podrobně seznámit se zdrojovými kódy a zajištění anonymity ověřit. Dle jejich vyjádření je anonymita zajištěna.
+Mohu anonymitu zrušit a některé komentáře podepsat?
+Nově máte v anketě u každé textové odpovědi možnost volby "Zveřejnit". Pokud ji zvolíte bude ve výsledcích ankety u této textové odpovědi uvedeno vaše jméno (tato vaše textová odpověd už nebude anonymní).
+
+Co se chystá
+Alespoň základní imformace o posledních změnách a o tom co se chystá. Pro případné náměty použijte, prosím, Helpdesk.
+22.1. 2016
+Upgrade běhového prostředí (doufám, že se přestane objevovat obskurní datum 32. května). Konsolidace a dotažení anglické mutace (návěští a ovládání) - překlad anket samotných je v kompetenci fakult.
+ Připravované změny a rozšíření 
+
+ integrace s SSO shibboleth (nasazení v anketě za semestr B152) 
+ propojení s KOSem (nasazení v anketě za semestr B152) - po přihlášení do KOSu se studentovi zobrazí informace o anketních listcích, které dosud nevyplnil a může je vyplnit (bude nastavitelné, zda student chce informaci zobrazit či nikoliv). 
+ datový sklad nad výsledky ankety  (nasazení během letního semestru B152) - tato aplikace bude určena primárně pro vedení školy a fakult
+ nové prostředí pro vyplňování anketních lístků (nasazení zatím nejasné) - vzniká v rámci diplomové práce na FIT 
+
+
+
+
+
+
+
+
+
+Správce stránky: Michal Valenta
+Poslední aktualizace: 22.1. 2016
+
+
+
+
+
+

@@ -18,6 +18,7 @@ class Spider:
     pages = {}
 
     def __init__(self, base_url, domain_name, queue, crawled, pages):
+        Spider.visitedPages = 0
         Spider.base_url = base_url
         Spider.domain_name = domain_name
         Spider.queue = queue
