@@ -41,7 +41,7 @@
         }
 
         form {
-            text-align: left;
+            text-align: right;
         }
 
         form input[type=text] {
@@ -89,7 +89,7 @@
 
         .radio_label {
             display: inline-block;
-            font-size: 30px;
+            font-size: 25px;
             font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
         }
 
@@ -158,10 +158,10 @@
 <section class="search-form flex-container">
     <form method="post">
         <table>
-            <tr>
+            <tr style="padding-right: 20px;">
                 <td class="radio_label">Doména</td>
                 <td class="radio_buttons">
-                    <input type="text" name="homepage" value="{{ homepage }}" oninput="this.form.submit()">
+                    <input type="text" name="homepage" value="{{ homepage }}" onchange="this.form.submit()">
                 </td>
             </tr>
             <tr>
@@ -169,7 +169,8 @@
                 <td class="radio_buttons">
                     <input type="range" name="thread_cnt" min="1" max="100" step="1" value="{{ thread_cnt }}"
                            oninput="updateTextInput(this.value, 'thread_cnt');" onmouseout="this.form.submit()">
-                    <input type="text" id="thread_cnt" value="{{ thread_cnt }}" style="border: none; width: min-content;">
+                    <input type="text" id="thread_cnt" value="{{ thread_cnt }}"
+                           style="border: none; width: min-content;">
                 </td>
             </tr>
             <tr>
@@ -197,6 +198,24 @@
                 </td>
             </tr>
             <tr>
+                <td class="radio_label">Poměr PageRank</td>
+                <td class="radio_buttons">
+                    <input type="range" name="pr_ratio" min="1" max="10" step="0.1" value="{{ pr_ratio }}"
+                           oninput="updateTextInput(this.value, 'pr_ratio');" onmouseout="this.form.submit()">
+                    <input type="text" id="pr_ratio" value="{{ pr_ratio }}"
+                           style="border: none; width: min-content;">
+                </td>
+            </tr>
+            <tr>
+                <td class="radio_label">Poměr ContentRank</td>
+                <td class="radio_buttons">
+                    <input type="range" name="content_ratio" min="1" max="10" step="0.1" value="{{ content_ratio }}"
+                           oninput="updateTextInput(this.value, 'content_ratio');" onmouseout="this.form.submit()">
+                    <input type="text" id="content_ratio" value="{{ content_ratio }}"
+                           style="border: none; width: min-content;">
+                </td>
+            </tr>
+            <tr style="padding-right: 160px;">
                 <td class="radio_label">Metoda</td>
                 <td class="radio_buttons">
                     <label>

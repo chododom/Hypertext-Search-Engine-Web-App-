@@ -32,25 +32,31 @@ def search(request):
 
     def get_alpha(a):
         if a != '':
-            print(a)
             main.ALPHA = float(a)
         return main.ALPHA
 
+    def get_pr_ratio(a):
+        if a != '':
+            main.PR_WEIGHT = float(a)
+        return main.PR_WEIGHT
+
+    def get_content_ratio(a):
+        if a != '':
+            main.CR_WEIGHT = float(a)
+        return main.CR_WEIGHT
+
     def get_thread_cnt(a):
         if a != '':
-            print(a)
             main.THREAD_CNT = int(a)
         return main.THREAD_CNT
 
     def get_page_cnt(a):
         if a != '':
-            print(a)
             main.PAGE_CNT = int(a)
         return main.PAGE_CNT
 
     def get_iter_cnt(a):
         if a != '':
-            print(a)
             main.ITERATION_CNT = int(a)
         return main.ITERATION_CNT
 
@@ -68,7 +74,8 @@ def search(request):
     page_cnt = get_page_cnt(request.POST.get('page_cnt', ''))
     iter_cnt = get_iter_cnt(request.POST.get('iter_cnt', ''))
     homepage = get_homepage(request.POST.get('homepage', ''))
-
+    pr_ratio = get_pr_ratio(request.POST.get('pr_ratio', ''))
+    content_ratio = get_content_ratio(request.POST.get('content_ratio', ''))
     pages = []
 
     if crawling == '1':
@@ -95,6 +102,8 @@ def search(request):
         main.SEARCH = tmpS
 
     return render(request, "search.html", {'pages': pages,
+                                           'pr_ratio': pr_ratio,
+                                           'content_ratio': content_ratio,
                                            'homepage': homepage,
                                            'alpha': alpha,
                                            'searching_form': searching_form,
