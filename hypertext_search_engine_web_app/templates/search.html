@@ -135,8 +135,16 @@
         }
 
     </style>
+    <script type="text/javascript">
+        function init() {
+            document.getElementById('id_searched_exp').setAttribute('value', "{{ searched_exp }}");
+        }
+        function updateTextInput(val) {
+            document.getElementById('range-alpha').value = val;
+        }
+    </script>
 </head>
-<body>
+<body onload="init()">
 <header class="flex-container">
     <div class="h_pr">PageRank</div>
     <div class="h_conj">by</div>
@@ -147,6 +155,14 @@
 <section class="search-form flex-container">
     <form method="post">
         <table>
+            <tr>
+                <td class="radio_label">Alfa</td>
+                <td class="radio_buttons">
+                    <input type="range" name="alpha" min="0" max="1" step="0.05" value="{{ alpha }}"
+                           onchange="updateTextInput(this.value);" onmouseout="this.form.submit()">
+                    <input type="text" id="range-alpha" value="{{ alpha }}" style="border: none;">
+                </td>
+            </tr>
             <tr>
                 <td class="radio_label">Metoda</td>
                 <td class="radio_buttons">
