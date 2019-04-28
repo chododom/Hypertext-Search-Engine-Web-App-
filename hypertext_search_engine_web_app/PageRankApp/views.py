@@ -8,9 +8,6 @@ from django.views.decorators.csrf import csrf_exempt
 def search(request):
 
     def get_method(method):
-        if method != '':
-            print('method changed')
-
         if method == 'matrix':
             main.METHOD = 'matrix'
         elif method == 'power':
@@ -34,15 +31,24 @@ def search(request):
 
     searched_exp = get_search_expr(request.POST.get('searched_exp', ''))
     crawling = request.POST.get('crawling', '')
+    searching = request.POST.get('searching', '')
     pagerank_method = get_method(request.POST.get('pagerank_method', ''))
     alpha = get_alpha(request.POST.get('alpha', ''))
+    pages = []
 
     if crawling == '1':
         tmp = main.CRAWL
         main.CRAWL = True
         main.crawl_them_all()
         main.CRAWL = tmp
-    pages = []
+
+    if searching == '1':
+        tmp = main.SEARCH
+        main.SEARCH = True
+        pages = main.search_them_all()
+        main.SEARCH = tmp
+
+    print(pages)
     return render(request, "search.html", {'pages': pages,
                                            'alpha': alpha,
                                            'searching_form': searching_form,

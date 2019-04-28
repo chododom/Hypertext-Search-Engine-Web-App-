@@ -139,6 +139,7 @@
         function init() {
             document.getElementById('id_searched_exp').setAttribute('value', "{{ searched_exp }}");
         }
+
         function updateTextInput(val) {
             document.getElementById('range-alpha').value = val;
         }
@@ -160,7 +161,7 @@
                 <td class="radio_buttons">
                     <input type="range" name="alpha" min="0" max="1" step="0.05" value="{{ alpha }}"
                            onchange="updateTextInput(this.value);" onmouseout="this.form.submit()">
-                    <input type="text" id="range-alpha" value="{{ alpha }}" style="border: none;">
+                    <input type="text" id="range-alpha" value="{{ alpha }}" style="border: none; width: min-content;">
                 </td>
             </tr>
             <tr>
@@ -186,6 +187,7 @@
     </form>
     <form method="post">
         {{ searching_form }}
+        <input type="text" name="searching" style="display: none" value="1">
         <input type="submit" value="Hledat">
     </form>
 </section>
@@ -197,9 +199,13 @@
         </div>
     {% endif %}
     <ol style="text-align: left">
-        {% for elem in pages %}
-            <li class="result-row">{{ elem }}</li>
-        {% endfor %}
+        {% if pages %}
+            {% for elem in pages %}
+                <li class="result-row">{{ elem }}</li>
+            {% endfor %}
+        {% else %}
+            <li class="result-row">Žádné výsledky</li>
+        {% endif %}
     </ol>
 </section>
 </body>

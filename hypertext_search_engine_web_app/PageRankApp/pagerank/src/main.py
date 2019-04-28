@@ -44,7 +44,28 @@ def crawl_them_all():
         create_spiders()
         for thread in threads:
             thread.join()
+    if CALC_PR:
+        PR = PageRank(pages, ALPHA, ITERATION_CNT, False)
+        if METHOD == "matrix":
+            print("Result - matrix method")
+            pi_matrix = PR.do_page_rank_matrix()
+            print("PR sum: " + str(pi_matrix.sum()))
+            for pg in pages:
+                pages[pg].rank = pi_matrix.toarray()[0][int(pages[pg].id)]
+        elif METHOD == "power":
+            print("\nResult - power method")
+            pi_power = PR.do_page_rank()
+            print("PR sum: " + str(pi_power.sum()))
+            for pg in pages:
+                pages[pg].rank = pi_power.toarray()[0][int(pages[pg].id)]
 
+        # sort by Page Rank
+        PageRank.printPagesPR(pages)
+        PageRank.save_ranks(pages)
+
+    if INIT_SEARCH_INDEX:
+        createSearchableData(PARENT_DIR + "page_contents")
+        print("Created searchable data schema")
 
 '''
 pages = {
@@ -57,44 +78,23 @@ pages = {
     }
 '''
 
-if CALC_PR:
-    PR = PageRank(pages, ALPHA, ITERATION_CNT, False)
-    if METHOD == "matrix":
-        print("Result - matrix method")
-        pi_matrix = PR.do_page_rank_matrix()
-        print("PR sum: " + str(pi_matrix.sum()))
-        for pg in pages:
-            pages[pg].rank = pi_matrix.toarray()[0][int(pages[pg].id)]
-    elif METHOD == "power":
-        print("\nResult - power method")
-        pi_power = PR.do_page_rank()
-        print("PR sum: " + str(pi_power.sum()))
-        for pg in pages:
-            pages[pg].rank = pi_power.toarray()[0][int(pages[pg].id)]
 
-    # sort by Page Rank
-    PageRank.printPagesPR(pages)
-    PageRank.save_ranks(pages)
-
-
-if INIT_SEARCH_INDEX:
-    createSearchableData(PARENT_DIR + "page_contents")
-    print("Created searchable data schema")
-
-if SEARCH:
-    final_res = search(SEARCH_WORD, RESULT_CNT)
-
-
-    def get_key(result):
-        return result.combined_rank
-
-
+def search_them_all():
+    final_res = []
     if SEARCH:
         final_res = search(SEARCH_WORD, RESULT_CNT)
 
-        for i in range(len(final_res)):
-            PageRank.assign_ranks(final_res)
-        final_res = sorted(final_res, key=get_key, reverse=True)
-        for i in range(len(final_res)):
-            print(final_res[i].page_url + " -> " + str(final_res[i].combined_rank) + " -PR- " + str(
-                final_res[i].normalized_page_rank) + " -CR- " + str(final_res[i].content_rank))
+        def get_key(result):
+            return result.combined_rank
+
+        if SEARCH:
+            final_res = search(SEARCH_WORD, RESULT_CNT)
+
+            for i in range(len(final_res)):
+                PageRank.assign_ranks(final_res)
+            final_res = sorted(final_res, key=get_key, reverse=True)
+            for i in range(len(final_res)):
+                print(final_res[i].page_url + " -> " + str(final_res[i].combined_rank) + " -PR- " + str(
+                    final_res[i].normalized_page_rank) + " -CR- " + str(final_res[i].content_rank))
+
+    return final_res
